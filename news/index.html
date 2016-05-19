@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="The newsroom contains NREL feature stories, news releases, social media connections, media contacts, and subscription information.">
+
+	<title>Newsroom | NREL</title>
+	<!-- GLOBAL STYLES -->
+	<!--#include virtual="/client/template/head.html" -->
+
+	<!-- SITE STYLES -->
+	<link href="/about/client/css/styles.min.css" rel="stylesheet" >
+</head>
+<body>
+<!-- GLOBAL NREL BANNER -->
+<!--#include virtual="/client/template/banner.html" -->
+
+
+<!-- GLOBAL CORPORATE TOP NAV -->
+<!--#include virtual="/client/template/topnav.html" -->
+
+
+<!-- GLOBAL BREADCRUMBS -->
+<!--#include virtual="/client/template/breadcrumbs.html" -->
+<div class="container" id="content">
+
+
+
+<div class="row">
+	<div class="col-sm-9 col-sm-push-3">
+
+<div class="row">
+	<div class="col-sm-12">
+		<h1 class="pull-left">Newsroom</h1>
+
+		<!--stopindex-->
+        <form
+            role="formsubsite"
+            name="seeksubsite"
+            method="get"
+            class="form form-inline pull-right"
+            action="http://search2.nrel.gov">
+
+            <label for="search" class="sr-only">Search News</label>
+            <input type="hidden" name="ourl" id="ourl">
+            <input type="hidden" name="rows" value="10">
+
+            <input type="text" name="q" id="search" maxlength="2047" placeholder="Search News" class="form-control">
+
+            <button type="submit" class="btn btn-success">Search</button>
+        </form>
+		<!--startindex-->
+	</div>
+</div>
+
+<div class="row ">
+	<div class="col-sm-8">
+		<h2>Connect
+		<a href="https://twitter.com/nrel/"><img src="/client/img/icon-twitter.png" alt="Twitter"></a>
+
+		<a href="https://www.facebook.com/nationalrenewableenergylab"><img src="/client/img/icon-facebook.png" alt="Facebook"></a>
+
+		<a href="https://www.linkedin.com/company/national-renewable-energy-laboratory"><img src="/client/img/icon-linkedin.png" alt="LinkedIn"></a>
+
+		<a href="https://instagram.com/nationalrenewableenergylab/"><img src="/client/img/icon-instagram.png" alt="Instagram"></a></h2>
+
+
+		<div class="box-topper">
+			<div class="left">
+				<h4>Featured Video</h4>
+			</div>
+			<div class="right">
+				<p><a href="https://www.youtube.com/user/NRELPR/">More videos <img src="/client/img/icon-youtube.png" alt="YouTube"></a></p>
+			</div>
+		</div>
+
+
+
+		<div class="embed-responsive embed-responsive-16by9">
+			<!-- <div class="embed-responsive-item"  id="newsroom-video-playlist"></div> -->
+			<iframe
+				class="embed-responsive-item"
+				src="https://www.youtube.com/embed/videoseries?list=PL3GM1pjrYAcjweFbw2SJJauYy-_Jqv6z6"  allowfullscreen>
+			</iframe>
+		</div>
+
+
+
+		<h2 id="news-releases">News Releases <a href="http://feeds.feedburner.com/NrelNewsReleases"><i class="fa fa-rss-square"></i></a></h2>
+
+		<div class="content-sandwich-topper">
+			<p>View all <a href="/news/press/">news releases</a></p>
+		</div>
+
+    <!-- DYNAMIC CONTENT VIA JS -->
+		<div class="content-sandwich">
+			<div id="releases-container"></div>
+		</div>
+    <!-- END DYNAMIC CONTENT VIA JS -->
+
+
+		<h2 id="feature-news">Feature News <a href="http://feeds.feedburner.com/NrelFeatureStories"><i class="fa fa-rss-square"></i></a></h2>
+
+		<div class="content-sandwich-topper">
+			<p>View all <a href="/news/features/">feature stories</a></p>
+		</div>
+
+
+    <!-- DYNAMIC CONTENT VIA JS -->
+		<div class="content-sandwich">
+			<div id="features-container"></div>
+		</div>
+    <!-- END DYNAMIC CONTENT VIA JS -->
+
+	</div>
+
+
+	<div class="col-sm-4" >
+		<div class="well actionbox clearfix">
+
+			<!--#if expr="$QUERY_STRING = 'submitted'" -->
+			<p>Thank you.<br />
+			You have successfully subscribed to the NREL News and Information Service.</p>
+			<!--#else -->
+
+			<h2 id="subscribe">Subscribe</h2>
+			<p>Receive NREL feature stories, news releases, and <em>Continuum Magazine</em>.</p>
+
+			<form action="../server/cfc/lyris.cfc" method="post" name="emailform" class="form">
+				<input type="hidden" name="method" value="subscribe" />
+				<input type="hidden" name="list" value="nrel-news" />
+				<input type="hidden" name="url" value="/news/index.html?submitted" />
+				<div class="form-group">
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="name">Name*:</label>
+							<input type="text" name="name" size="35" id="name" class="form-control" required >
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="organization">Organization*:</label>
+							<input type="text" name="company_name_" size="35" id="organization"  class="form-control" required >
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-sm-12">
+							<label for="email">Email*:</label>
+							<input type="text" name="email" size="35" id="email" class="form-control" required >
+							<p class="alignright">* Indicates a required field.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="row">
+						<div class="col-sm-12">
+							<input type="submit" value="Submit" alt="Submit" class="btn btn-success" >
+						</div>
+					</div>
+				</div>
+			</form>
+			<!--#endif-->
+
+			<p class="pull-right"><a href="unsubscribe.html">Unsubscribe</a></p>
+
+		</div>
+
+		<!-- TWITTER WIDGET -->
+		<div>
+			<a class="twitter-timeline" href="https://twitter.com/NREL" data-widget-id="603319232286294017">Tweets by @NREL</a>
+
+			<script>
+				!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+			</script>
+		</div>
+		<!-- END TWITTER WIDGET -->
+
+	</div>
+</div>
+
+
+
+<div class="row">
+
+	<div class="col-sm-5">
+		<h2>Resources for Media</h2>
+		<p><b>Media Contacts</b></p>
+
+		<ul>
+		<li><b><a href="mailto:Heather.Lammers@nrel.gov">Heather Lammers</a></b> 303-275-4084</li>
+		<li><b><a href="mailto:David.Glickson@nrel.gov">David Glickson</a></b> 303-275-4097</li>
+		<li><b><a href="mailto:Wayne.Hicks@nrel.gov">Wayne Hicks</a></b> 303-275-4051</li>
+		</ul>
+
+		<p><a href="http://nrel.webdamdb.com/">Image Gallery</a></p>
+		<p><a href="/about/awards.html">Awards</a></p>
+	</div>
+
+	<div class="col-sm-7">
+		<div class="well actiobox">
+			<div class="media-block">
+
+				<p><a href="/continuum/"><img src="assets/images/continuum-logo.png" class="img-responsive" alt="Continuum"></a></p>
+
+				<p>NREL's premier publication showcasing clean energy innovations and the researchers that make it all happen. <a href="/continuum/">Read more</a> </p>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+	<!--#include virtual="/about/client/template/sidenav.html" -->
+</div>
+
+<!-- ============== -->
+<!-- END OF CONTENT -->
+<!-- ============== -->
+</div>
+<!-- GLOBAL FOOTER -->
+<!--#include virtual="/client/template/footer.html" -->
+
+<!-- SITE SCRIPTS -->
+<!--#include virtual="client/template/scripts.html" -->
+
+<!-- GLOBAL SCRIPTS -->
+<!--#include virtual="/client/template/scripts.html" -->
+
+</body>
+</html>

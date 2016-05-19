@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Publications | Research Site Name | NREL</title>
+    <meta name="description" content="">
+
+    <!-- GLOBAL STYLES -->
+    <!--#include virtual="/client/template/head.html" -->
+
+    <!-- SITE STYLES -->
+    <link href="/site/client/css/styles.min.css" rel="stylesheet" >
+    <script>
+        $(function() {
+            nrel = $.extend({}, window.nrel)
+            nrel.pagevars = $.extend({}, nrel.pagevars)
+            nrel.pagevars.topnav = 'publications'
+        })
+    </script>
+</head>
+<body>
+<!-- GLOBAL NREL BANNER -->
+<!--#include virtual="/client/template/banner.html" -->
+
+<!-- SITE BANNER -->
+<!--#include virtual="/site/client/template/sitebanner.html" -->
+
+<!-- SITE TOP NAV -->
+<!--#include virtual="/site/client/template/topnav.html" -->
+
+<!-- GLOBAL BREADCRUMBS -->
+<!--#include virtual="/client/template/breadcrumbs.html" -->
+<div class="container" id="content">
+<!-- ===== BEGIN CONTENT ============================================== -->
+
+
+<div class="row">
+    <div class="col-sm-9 col-sm-push-3">
+
+        <h1>Publications</h1>
+
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="well text-center actionbox">
+            <h3>NREL Publications Database</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a class="btn btn-success" href="">Search The Database</a>
+        </div>
+
+
+        <p>View all NREL publications about <a href="">Research Site research</a></p>
+
+
+        <div class="well text-center actionbox">
+            <h3>Newsletter</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a class="btn btn-success" href="">Subscribe</a>
+        </div>
+
+
+
+        <!-- 2 across for small, 4 across for medium and up. -->
+        <div class="content-sandwich">
+            <h2>Featured Publications</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <a href="" class="link-tile">
+                        <img src="http://placehold.it/737x737?text=Thumbnail" alt="" class="img-responsive">
+                        <p>Short Title</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <a href="" class="link-tile">
+                        <img src="http://placehold.it/737x737?text=Thumbnail" alt="" class="img-responsive">
+                        <p>Short Title</p>
+                    </a>
+                </div>
+
+                <!-- clear content overhangs when columns above are of different height -->
+                <div class="clearfix visible-sm-block"></div>
+
+
+                <div class="col-sm-6 col-md-3">
+                    <a href="" class="link-tile">
+                        <img src="http://placehold.it/737x737?text=Thumbnail" alt="" class="img-responsive">
+                        <p>Short Title</p>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <a href="" class="link-tile">
+                        <img src="http://placehold.it/737x737?text=Thumbnail" alt="" class="img-responsive">
+                        <p>Short Title</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <h2>Recent Journal Articles</h2>
+
+        <div class="panel-group inverse accordion" id="accordion">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed" href="#panel1">
+                            Topic 1
+                        </a>
+                    </h4>
+                </div>
+                <div id="panel1" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>"<a href="">Article Title</a>,” <em>Journal Name</em> (Year)</p>
+                        <p><a href=""><em>Conference Paper Title</em></a>, Conference Name (Year)</p>
+                        <p><a href=""><em>Report Title</em></a>, NREL Technical Report (Year)</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed" href="#panel2">
+                            Topic 2
+                        </a>
+                    </h4>
+                </div>
+                <div id="panel2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>"<a href="">Article Title</a>,” <em>Journal Name</em> (Year)</p>
+                        <p><a href=""><em>Conference Paper Title</em></a>, Conference Name (Year)</p>
+                        <p><a href=""><em>Report Title</em></a>, NREL Technical Report (Year)</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" class="accordion-toggle collapsed" href="#panel3">
+                            Topic 3
+                        </a>
+                    </h4>
+                </div>
+                <div id="panel3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>"<a href="">Article Title</a>,” <em>Journal Name</em> (Year)</p>
+                        <p><a href=""><em>Conference Paper Title</em></a>, Conference Name (Year)</p>
+                        <p><a href=""><em>Report Title</em></a>, NREL Technical Report (Year)</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- LEFT NAVIGATION -->
+    <!--#include virtual="/site/client/template/sidenav.html" -->
+</div>
+
+
+
+
+
+
+<!-- ===== END CONTENT ============================================== -->
+</div>
+<!-- GLOBAL FOOTER -->
+<!--#include virtual="/client/template/footer.html" -->
+
+<!-- SITE SCRIPTS -->
+<!--#include virtual="/site/client/template/scripts.html" -->
+
+<!-- GLOBAL SCRIPTS -->
+<!--#include virtual="/client/template/scripts.html" -->
+</body>
+</html>

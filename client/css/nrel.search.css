@@ -1,0 +1,108 @@
+/*!
+ *
+ *  NREL search results styles
+ *
+ */
+
+/*
+ *  SEARCH RESULTS
+ ************************************************************/
+
+/* selectbox */
+#perPage {
+    margin-left: 10px;
+}
+
+.results-header .form-inline input[type=text] {
+    width: 99%;
+}
+
+@media(min-width:768px){
+    .results-header .form-inline [class^="col-"] {
+        padding-right:0;
+    }
+
+    .results-header .form-inline [class^="col-"]+[class^="col-"] {
+        padding-left: 0;
+    }
+}
+
+.results-header a {
+    text-decoration: none;
+}
+
+.results-header a:hover {
+    text-decoration: underline;
+}
+
+.results-header p,
+.results-header label  {
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.results-header .results-notes {
+    margin: 1.5em 0;
+}
+
+.results-header .results-notes p {
+    margin:0;
+}
+
+.results-header .results-total p {
+    margin-bottom: 0;
+}
+
+.results-header .highlighted {
+    color: #c60;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.results-list {
+    margin-top:1.5em;
+    padding-top:1.5em;
+    border-top: 1px solid #ccc;
+
+}
+
+.results-highlighted {
+    font-weight: bold;
+}
+
+.results-item {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.results-item .summary {
+    color: initial;
+}
+
+.results-item .footer {
+    color:#5E6A71;
+}
+
+.results-pager .pagination {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.results-pager p {
+    font-family: Roboto;
+    padding-top:.5em;
+}
+
+.results-pager a {
+    text-decoration: none;
+}
+
+.results-pager a:hover {
+    text-decoration: underline;
+}
+
+.results-pager .glyphicon {
+    font-size: 75%;
+}

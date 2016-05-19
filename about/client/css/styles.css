@@ -1,0 +1,192 @@
+
+/*
+ * Photo Tour
+ ****************************/
+.tour-box .teaser {
+    font-weight: 300;
+}
+
+
+.tour-box .btn {
+    display: block;
+    font-weight: 600;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .tour-box .btn {
+        display: inline;
+        float: right;
+        margin: none;
+    }
+}
+
+.table-columns {
+    font-family:Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/*
+ * Quickfacts
+ ****************************/
+
+.quickfacts {
+    font-family:Roboto, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.quickfacts .col-sm-4 {
+    min-height:150px;
+
+}
+.quickfacts li {
+    list-style-type: none;
+}
+
+.quickfacts ul {
+    padding-left:0;
+}
+@media (min-width: 768px) {
+    .quickfacts ul {
+        padding-left:40px;
+    }
+}
+@media (min-width: 768px) {
+    .quickfacts li {
+        list-style-type:disc;
+    }
+}
+
+.quickfacts  {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .quickfacts  {
+        text-align: left;
+    }
+}
+
+
+/*
+ *  Colored columns
+ ****************************/
+.table-columns {
+    margin-top:1em;
+}
+
+.table-columns .grey,
+.table-columns .blue {
+    padding: 12px 9px;
+    border-bottom:3px solid #fff;
+    margin-bottom: 0.3em;
+}
+
+.table-columns .grey {
+    font-size: 20px;
+    font-weight:bold;
+    line-height:1.2;
+}
+
+.table-columns .blue p {
+    line-height: 1.2;
+}
+@media (min-width: 992px) {
+    .table-columns .grey {
+        padding: .6em 0 .2em 0;
+    }
+    .table-columns .blue {
+        min-height:250px;
+    }
+}
+@media (min-width: 1200px) {
+    .table-columns .blue {
+        min-height:200px;
+    }
+}
+
+/*
+ *  Newsroom styles
+ ****************************/
+.box-topper {
+    border: 1px solid #ccc;
+    display: table;
+    width: 100%;
+}
+
+.box-topper * {
+    margin: 0;
+}
+
+.box-topper {
+    padding: 5px;
+}
+
+.box-topper .left {
+    display: table-cell;
+    text-align: left;
+}
+
+.box-topper .right {
+    display: table-cell;
+    text-align: right;
+}
+
+.form-inline + ul {
+    margin-top: 2em; /* for news releases before 2002 */
+}
+
+/*
+ *  Weather Widget
+ ****************************/
+.weather-widget {
+    text-align: center;
+}
+.weather-widget .wx-temp {
+    color:#0079C2;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.weather-widget .wx-unit {
+vertical-align: text-top;
+font-size: 50%;
+}
+.weather-widget .wx-cond {
+    margin-top:0;
+    font-size: 90%;
+}
+
+
+/*
+ *  Carousel
+ ****************************/
+
+.carousel-control {
+    opacity: 1;
+    z-index:100;
+    bottom:auto;
+    width:5%;
+    top:0;
+    bottom:0;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+.item .description {
+    padding:0 .25em;
+}
+
+
+/*
+ *  Newsroom site styles
+ ****************************/
+h4.date {
+    font-size: 1.3em;
+    color: #000; /* variant of normal blue h4*/
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+h4.date + h3.headline {
+    margin-top: 0;
+}

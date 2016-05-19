@@ -1,0 +1,508 @@
+{
+    "sites": [
+        {
+            "path"  : "PLEASE KEEP THIS IN ALPHA ORDER BY DIRECTORY",
+            "email" : "AND ALWAYS VALIDATE YOUR JSON",
+            "subject" : "http://jsonformatter.curiousconcept.com/"
+        }
+        ,
+        {
+            "path"  : "/analysis/",
+            "email" : "energy.analysis@nrel.gov",
+            "subject" : "Energy Analysis"
+        }
+        ,
+        {
+            "path"  : "/analysis/jedi/",
+            "email" : "energy.analysis@nrel.gov",
+            "subject" : "Jobs and Economic Development Impact (JEDI) Models "
+        }
+        ,
+        {
+            "path"  : "/analysis/reeds/",
+            "email" : "ReEDS.Inquiries@nrel.gov",
+            "subject" : "Analysis REEDS"
+        }
+        ,
+        {
+            "path"  : "/awards/",
+            "email" : "nrel.research.director@nrel.gov",
+            "subject" : "Awards and Honors"
+        }
+        ,
+        {
+            "path"  : "/bioenergy/",
+            "email" : "Kathy.Cisar@nrel.gov",
+            "subject" : "Bioenergy"
+        }
+        ,
+        {
+            "path"  : "/biomass/",
+            "email" : "nrel.biomassr@nrel.gov",
+            "subject" : "Biomass Research"
+        }
+        ,
+        {
+            "path"  : "/buildings/",
+            "email" : "nrel.buildings@nrel.gov",
+            "subject" : "Buildings Research"
+        }
+        ,
+        {
+            "path"  : "/data/pix/",
+            "email" : "pix.webmaster@nrel.gov",
+            "subject" : "Photographic Information eXchange"
+        }
+        ,
+        {
+            "path"  : "/buildings/sunrel/",
+            "email" : "sunrel@nrel.gov",
+            "subject" : "Buildings Research - SUNREL Energy Simulation Software"
+        }
+        ,
+        {
+            "path"  : "/business_opportunities/",
+            "email" : "contracts.and.business_services@nrel.gov",
+            "subject" : "Business Opportunities"
+        }
+        ,
+        {
+            "path"  : "/careers/",
+            "email" : "leah.haney@nrel.gov",
+            "subject" : "NREL Careers"
+        }
+        ,
+        {
+            "path"  : "/community/",
+            "email" : "public.affairs@nrel.gov",
+            "subject" : "NREL in the Community"
+        }
+        ,
+        {
+            "path"  : "/csc/",
+            "email" : "steven.hammond@nrel.gov",
+            "subject" : "Computational Science"
+        }
+        ,
+        {
+            "path"  : "/csp/",
+            "email" : "linh.truong@nrel.gov",
+            "subject" : "Concentrating Solar Power"
+        }
+        ,
+        {
+            "path"  : "/csp/soltrace/",
+            "email" : "soltrace.support@nrel.gov",
+            "subject" : "Concentrating Solar Power - SolTrace"
+        }
+        ,
+        {
+            "path"  : "/csp/troughnet/",
+            "email" : "linh.truong@nrel.gov",
+            "subject" : "TroughNet"
+        }
+        ,
+        {
+            "path"  : "/defense/",
+            "email" : "connie.komomua@nrel.gov",
+            "subject" : "Department of Defense Energy Programs"
+        }
+        ,
+        {
+            "path"  : "/director/",
+            "email" : "Kimberly.Adams@nrel.gov",
+            "subject" : "Director's Page"
+        }
+        ,
+        {
+            "path"  : "/education/",
+            "email" : "linda.lung@nrel.gov",
+            "subject" : "Education Programs"
+        }
+        ,
+        {
+            "path"  : "/education_center/",
+            "email" : "education.center@nrel.gov",
+            "subject" : "Education Center"
+        }
+        ,
+        {
+            "path"  : "/eis/",
+            "email" : "electric.infrastructure@nrel.gov",
+            "subject" : "Electric Infrastructure Systems Research"
+        }
+        ,
+        {
+            "path"  : "/eis/imby/",
+            "email" : "benjamin.kroposki@nrel.gov",
+            "subject" : "In My Backyard (IMBY) "
+        }
+        ,
+        {
+            "path"  : "/electricity/",
+            "email" : "electric.infrastructure@nrel.gov",
+            "subject" : "Electricity Integration "
+        }
+        ,
+        {
+            "path"  : "/electricity/distribution/",
+            "email" : "distribution@nrel.gov",
+            "subject" : "Distributed Grid Integration"
+        }
+        ,
+        {
+            "path"  : "/electricity/transmission/",
+            "email" : "transmission@nrel.gov",
+            "subject" : "Transmission Grid Integration"
+        }
+        ,
+        {
+            "path"  : "/employment/",
+            "email" : "nrel.employment@nrel.gov",
+            "subject" : "Employment"
+        }
+        ,
+        {
+            "path"  : "/energyexecs/",
+            "email" : "energyexecs@nrel.gov",
+            "subject" : "Executive Energy Leadership Program"
+        }
+        ,
+        {
+            "path"  : "/energysciences/",
+            "email" : "Energy.Sciences.Webmaster@nrel.gov",
+            "subject" : "Energy Sciences"
+        }
+        ,
+        {
+            "path"  : "/eshq/",
+            "email" : "leigh.ramsey@nrel.gov",
+            "subject" : "Environment, Safety, Health and Quality"
+        }
+        ,
+        {
+            "path"  : "/esi/",
+            "email" : "esi@nrel.gov",
+            "subject" : "Energy Systems Integration"
+        }
+        ,
+        {
+            "path"  : "/extranet/biomass/",
+            "email" : "leslee.pohle@nrel.gov",
+            "subject" : "Biomass Extranet"
+        }
+        ,
+
+        {
+            "path"  : "/extranet/communications/",
+            "email" : "michelle.kubik@nrel.gov",
+            "subject" : "Communications Resources"
+        }
+        ,
+        {
+            "path"  : "/extranet/dhs_tech_assistance/",
+            "email" : "andrea.watson@nrel.gov",
+            "subject" : ""
+        }
+        ,
+        {
+            "path"  : "/extranet/energyexecs/",
+            "email" : "energyexecs@nrel.gov",
+            "subject" : "Executive Energy Leadership Program"
+        }
+        ,
+        {
+            "path"  : "/extranet/ideas_summit/",
+            "email" : "Michelle.Kubik@nrel.gov",
+            "subject" : "National Laboratory Ideas Summit"
+        }
+        ,
+        {
+            "path"  : "/extranet/international_services/",
+            "email" : "carlos.gomez@nrel.gov",
+            "subject" : "International Services"
+        }
+        ,
+        {
+            "path"  : "/extranet/neac/",
+            "email" : "Michelle.Kubik@nrel.gov",
+            "subject" : "NREL External Advisory Council"
+        }
+        ,
+        {
+            "path"  : "/extranet/ngs/",
+            "email" : "David.Hurlbut@nrel.gov",
+            "subject" : "Navajo Generation Station Study"
+        }
+        ,
+        {
+            "path"  : "/extranet/rsf/",
+            "email" : "nicki.johnson@nrel.gov",
+            "subject" : "Research Support Facilities"
+        }
+        ,
+        {
+            "path"  : "/extranet/standards/",
+            "email" : "michael.oakley@nrel.gov",
+            "subject" : "NREL.gov Standards and Best Practices"
+        }
+        ,
+        {
+            "path"  : "/extranet/trp/",
+            "email" : "michelle.kubik@nrel.gov",
+            "subject" : "Technical Review Panels"
+        }
+        ,
+        {
+            "path"  : "/extranet/vehiclesandfuels/cfdc/secure/",
+            "email" : "Mike.Simpson@nrel.gov",
+            "subject" : "Commercial Fleet Data Center (CFDC)"
+        }
+        ,
+        {
+            "path"  : "/extranet/wwpto_lab_summit/",
+            "email" : "nwtc.library@nrel.gov",
+            "subject" : "WWPTO Lab Summit"
+        }
+        ,
+        {
+            "path"  : "/extranet/wwsis/",
+            "email" : "transmission@nrel.gov",
+            "subject" : "Western Wind and Solar Integration Study Working Site"
+        }
+        ,
+        {
+            "path"  : "/geothermal/",
+            "email" : "linh.truoung@nrel.gov",
+            "subject" : "Geothermal Technologies"
+        }
+        ,
+        {
+            "path"  : "/geothermal/financing/",
+            "email" : "linh.truoung@nrel.gov",
+            "subject" : "Financing Geothermal Power Projects"
+        }
+        ,
+        {
+            "path"  : "/geothermal/guidebooks/",
+            "email" : "linh.truoung@nrel.gov",
+            "subject" : "Geothermal Policymaker's Guidebooks "
+        }
+        ,
+        {
+            "path"  : "/gis/",
+            "email" : "pamela.gray.hann@nrel.go",
+            "subject" : "Dynamic Maps, GIS Data, and Analysis Tools"
+        }
+        ,
+        {
+            "path"  : "/hydrogen/",
+            "email" : "hydrogen@nrel.gov",
+            "subject" : "Hydrogen and Fuel Cells Research"
+        }
+        ,
+        {
+            "path"  : "/hydrogen/h2fast/",
+            "email" : "hydrogen@nrel.gov",
+            "subject" : "H2Fast"
+        }
+        ,
+        {
+            "path"  : "/international/",
+            "email" : "scott.gossett@nrel.gov",
+            "subject" : "International Activities"
+        }
+        ,
+        {
+            "path"  : "/lci/",
+            "email" : "lci@nrel.gov",
+            "subject" : "U.S. Life-Cycle Inventory Database"
+        }
+        ,
+        {
+            "path"  : "/library/",
+            "email" : "library@nrel.gov",
+            "subject" : "Library"
+        }
+        ,
+        {
+            "path"  : "/materials-science/",
+            "email" : "don.gwinner@nrel.gov",
+            "subject" : "Materials Science"
+        }
+        ,
+        {
+            "path"  : "/ncpv/",
+            "email" : "pv.research@nrel.gov",
+            "subject" : "National Center for Photovoltaics"
+        }
+        ,
+        {
+            "path"  : "/news/",
+            "email" : "public.affairs@nrel.gov",
+            "subject" : "NREL Newsroom"
+        }
+        ,
+        {
+            "path"  : "/publications/",
+            "email" : "publications@nrel.gov",
+            "subject" : "Publications"
+        }
+        ,
+        {
+            "path"  : "/pv/",
+            "email" : "pv.research@nrel.gov",
+            "subject" : "Photovoltaics Research"
+        }
+        ,
+        {
+            "path"  : "/pv/measurements/",
+            "email" : "don.gwinner@nrel.gov",
+            "subject" : "PV Measurements and Characterization "
+        }
+        ,
+        {
+            "path"  : "/pv/pdil/",
+            "email" : "pdil@nrel.gov",
+            "subject" : "PV Process Development and Integration Laboratory "
+        }
+        ,
+        {
+            "path"  : "/pv/performance_reliability/",
+            "email" : "alexis.powers@nrel.gov",
+            "subject" : "Photovoltaics Research Performance and Reliability R&amp;D "
+        }
+        ,
+        {
+            "path"  : "/research_facilities/",
+            "email" : "email-contact2015@nrel.gov",
+            "subject" : "Research Facilities"
+        }
+        ,
+        {
+            "path"  : "/rredc/",
+            "email" : "mary.anderberg@nrel.gov",
+            "subject" : "Renewable Resource Data Center"
+        }
+        ,
+        {
+            "path"  : "/rredc/pvwatts/",
+            "email" : "pvwatts@nrel.gov",
+            "subject" : "PVWatts"
+        }
+        ,
+        {
+            "path"  : "/rredc/smarts/",
+            "email" : "mary.anderberg@nrel.gov",
+            "subject" : "SMARTS - Simple Model of the Atmospheric Radiative Transfer of Sunshine"
+        }
+        ,
+        {
+            "path"  : "/solar_radiation/",
+            "email" : "afshin.andreas@nrel.gov",
+            "subject" : "Solar Radiation Research"
+        }
+        ,
+        {
+            "path"  : "/sustainable_nrel/",
+            "email" : "sustainable.nrel@nrel.gov",
+            "subject" : "Sustainable NREL"
+        }
+        ,
+        {
+            "path"  : "/tech_deployment/",
+            "email" : "tech.deployment@nrel.gov",
+            "subject" : "Technology Deployment"
+        }
+        ,
+        {
+            "path"  : "/tech_deployment/climate_neutral/",
+            "email" : "tech.deployment@nrel.gov",
+            "subject" : "Climate Neutral Research Campuses"
+        }
+        ,
+        {
+            "path"  : "/tech_deployment/planning_tool/",
+            "email" : "rachel.sullivan@nrel.gov",
+            "subject" : "Climate Action Planning Tool"
+        }
+        ,
+        {
+            "path"  : "/tech_deployment/state_local_governments/",
+            "email" : "tech.deployment@nrel.gov",
+            "subject" : "State and Local Activities"
+        }
+        ,
+        {
+            "path"  : "/technologytransfer/",
+            "email" : "tech.transfer@nrel.gov",
+            "subject" : "Technology Transfer"
+        }
+        ,
+        {
+            "path"  : "/transportation/",
+            "email" : "avf@nrel.gov",
+            "subject" : "Transportation Research"
+        }
+        ,
+        {
+            "path"  : "/transportation/energystorage/",
+            "email" : "avf@nrel.gov",
+            "subject" : "Energy Storage"
+        }
+        ,
+        {
+            "path"  : "/transportation/powerelectronics/",
+            "email" : "avf@nrel.gov",
+            "subject" : "Advanced Power Electronics"
+        }
+        ,
+        {
+            "path"  : "/transportation/transportationdata/",
+            "email" : "avf@nrel.gov",
+            "subject" : "Transportation Secure Data Center"
+        }
+        ,
+        {
+            "path"  : "/water/",
+            "email" : "nwtc.library@nrel.gov",
+            "subject" : "Water Power Research"
+        }
+        ,
+        {
+            "path"  : "/wind/",
+            "email" : "nwtc.library@nrel.gov",
+            "subject" : "Wind Research"
+        }
+        ,
+        {
+            "path"  : "/wind/grc/",
+            "email" : "nwtc.library@nrel.gov",
+            "subject" : "Gearbox Reliability Collaborative"
+        }
+        ,
+        {
+            "path"  : "/wind/integrationdatasets/",
+            "email" : "nwtc.library@nrel.gov",
+            "subject" : "Wind Research - Wind Integration Datasets"
+        }
+        ,
+        {
+            "path"  : "/wind/systemsintegration/",
+            "email" : "nwtc.library@nrel.gov",
+            "subject" : "Wind Research - Wind Systems Integration"
+        }
+        ,
+        {
+            "path"  : "/wind/systems_engineering/",
+            "email" : "nwtc.library@nrel.gov",
+            "subject" : "Systems Engineering"
+        }
+        ,
+        {
+            "path"  : "/",
+            "email" : "email-contact2015@nrel.gov",
+            "subject" : "NREL.gov Website Inquiry"
+        }
+    ]
+}

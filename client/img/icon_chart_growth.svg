@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="90px" height="90px" xml:space="preserve">
+<g>
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#5D9741" stroke-width="3" stroke-miterlimit="10" points="
+		9.023,82.481 19.448,82.481 19.448,66.468 30.623,66.468 30.623,82.481 41.549,82.481 41.549,48.425 52.474,48.425 52.474,82.481 
+		62.399,82.481 62.399,37.5 73.575,37.5 73.575,82.481 84,82.481 		"/>
+	<g>
+		<g>
+			<polyline fill="none" stroke="#5D9741" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="7.494,41.968 
+				19.948,50.864 30.623,31.292 41.299,36.63 51.974,18.838 62.649,24.175 75.826,16.269 				"/>
+			<g>
+				<polygon fill="#5D9741" points="76.812,20.039 80.442,13.5 72.964,13.625 					"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

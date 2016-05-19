@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>2016 News Releases | NREL </title>
+
+
+
+    <!-- Solr -->
+
+        <meta http-equiv="last-modified" content="2016-05-18@12:00:00 MST">
+
+
+
+    <!-- GLOBAL STYLES -->
+
+    <!-- == GLOBAL HEAD == -->
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+
+    <!-- iOS icons -->
+    <link rel="apple-touch-icon" href="/client/img/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="72x72"   href="/client/img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/client/img/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/client/img/touch-icon-ipad-retina.png">
+
+
+    <!-- Bootstrap styles -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="all">
+
+
+    <!-- GLOBAL styles -->
+    <link href="/client/css/nrel.complete.min.css" rel="stylesheet">
+
+
+    <!-- Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700%7CRoboto:300,400,700" rel="stylesheet" type="text/css">
+
+
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <!-- Google Analytics-->
+    <script type="text/javascript">
+     (function() {
+        var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+        so.src = '//www.nrel.gov/includes/ga/nrel.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+      })();
+    </script>
+    <!-- == END GLOBAL HEAD == -->
+
+
+
+    <!-- SITE STYLES -->
+    <link href="/about/client/css/styles.min.css" rel="stylesheet" >
+    <script>
+        $(function() {
+            window.nrel = $.extend( {}, window.nrel );
+
+            // Our archive index templates need to have a hyperlinked left nav.
+            // Our current year index template does not need a link.
+
+            nrel.temp = {
+                pageurl: '/news/press/'
+              , sidenavButton: ''
+            }
+
+            if ( location.pathname !== nrel.temp.pageurl ) {
+                nrel.temp.sidenavButton = nrel.temp.pageurl;
+            }
+
+            nrel.pagevars = {
+                pageurl: nrel.temp.pageurl
+              , sidenavButton: nrel.temp.sidenavButton
+            };
+
+            delete nrel.temp;
+        });
+    </script>
+</head>
+<body>
+<!-- GLOBAL NREL BANNER -->
+<!-- == GLOBAL BANNER == -->
+<!--stopindex-->
+<a href="#content" class="sr-only">Skip to main content</a>
+
+<header role="banner" id="banner">
+    <div class="banner-logo">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <a href="/"><div class="logo"></div></a>
+                </div>
+
+                <button
+                    type="button"
+                    class="navbar-toggle searchbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#searchbar-collapse">
+
+                    <i class="fa fa-search"></i><span class="sr-only">Toggle Search</span>
+                </button>
+
+                <div class="col-sm-6">
+                    <div class="navbar-collapse collapse" id="searchbar-collapse">
+
+                        <form
+                            role="form"
+                            name="seek"
+                            method="get"
+                            class="searchbar-form form-inline"
+                            action="http://search2.nrel.gov">
+
+                            <input type="hidden" name="ourl" id="bannerourl" onload />
+                            <input type="hidden" name="rows" value="10" />
+
+                            <div class="form-group">
+                                <label for="search" class="sr-only">Search NREL.gov</label>
+                                <input
+                                    type="text"
+                                    name="q" id="search"
+                                    maxlength="2047"
+                                    placeholder="Search NREL.gov"
+                                    class="form-control">
+
+                                <button type="submit" class="btn btn-default">Search</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="banner-wordo">
+        <div class="container">
+            <div class="row visible-xs">
+                <div class="col-sm-12">
+                    <div class="wordo">National Renewable Energy Laboratory</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!--startindex-->
+<!-- == END GLOBAL BANNER == -->
+
+
+
+
+<!-- GLOBAL CORPORATE TOP NAV -->
+<!-- == TOP NAVIGATION == -->
+<!--stopindex-->
+<div class="navbar-wrapper corporate-topnav" id="topnav">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <span class="navbar-brand hidden-xs">Leading Clean Energy Innovation</span>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class="dropdown" data-topnav="about"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="fa fa-angle-down hidden-xs"></span></a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/about/">About NREL <i class="fa fa-home"></i></a></li>
+                        <li><a href="/about/mission-programs.html">Mission &amp; Programs</a></li>
+                        <li><a href="/about/technology-transfer.html">Technology Transfer</a></li>
+                        <li><a href="/innovation/">Impact</a></li>
+                        <li><a href="/about/leadership.html">Leadership</a></li>
+                        <li><a href="/about/community.html">Community</a></li>
+                        <li><a href="/about/visiting-nrel.html">Visiting NREL</a></li>
+                        <li><a href="/about/awards.html">Awards</a></li>
+                        <li><a href="/news/">Newsroom</a></li>
+                        <li><a href="/about/contacts.html">Contact Us</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown" data-topnav="research"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <span class="fa fa-angle-down hidden-xs"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/research/">Research <i class="fa fa-home"></i></a></li>
+                        <li><a href="/research/highlights.html">Highlights</a></li>
+                        <li><a href="/research/publications.html">Publications</a></li>
+                        <li><a href="/research/collaborations.html">Collaborations</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="dropdown" data-topnav="workingwithus"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Working With Us <span class="fa fa-angle-down hidden-xs"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/workingwithus/">Working With Us <i class="fa fa-home"></i></a></li>
+                        <li><a href="/workingwithus/partnership-opportunities.html">Partnerships</a></li>
+                        <li><a href="/workingwithus/partnering-facilities.html">Facilities</a></li>
+                        <li><a href="/workingwithus/licensing.html">Licensing</a></li>
+                        <li><a href="/workingwithus/commercialization.html">Commercialization</a></li>
+                        <li><a href="/workingwithus/procurement.html">Procurement</a></li>
+                        <li><a href="/workingwithus/energy-education.html">Energy Education</a> </li>
+                        <li><a href="/workingwithus/success-stories.html">Success Stories</a></li>
+                        <li><a href="/workingwithus/faqs.html">FAQs</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Careers <span class="fa fa-angle-down hidden-xs"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/careers/">Careers <i class="fa fa-home"></i></a></li>
+                        <li><a href="/careers/find-job.html">Find a Job</a></li>
+                        <li><a href="/careers/your-career.html">Your Career at NREL</a></li>
+                        <li><a href="/careers/interns-post-docs.html">Interns &amp; Postdocs</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+      </div>
+    </div>
+</div>
+<!--startindex-->
+<!-- == END TOP NAVIGATION == -->
+
+
+
+<!-- GLOBAL BREADCRUMBS -->
+<!--stopindex-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <ol class="breadcrumb invisible">
+                    <li><a href="/" title="NREL.gov"><span class="home"><i class="fa fa-home"></i></span></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+<!--startindex-->
+<div class="container" id="content">
+
+
+
+<div class="row">
+    <div class="col-sm-9 col-sm-push-3">
+
+
+
+
+        <h1>2016 News Releases</h1>
+
+
+        <p class="lead">Access news stories about the laboratory and renewable energy and energy efficiency technologies.</p>
+
+
+        <form
+            role="formsubsite"
+            name="seeksubsite"
+            method="get"
+            class="form form-inline"
+            action="http://search2.nrel.gov">
+
+            <label for="search" class="sr-only">Search News</label>
+            <input type="hidden" name="ourl" id="ourl">
+            <input type="hidden" name="rows" value="10">
+
+            <input type="text" name="q" id="search" maxlength="2047" placeholder="Search News" class="form-control">
+
+            <input type="submit" value="Search" class="btn btn-success" >
+        </form>
+
+
+
+
+                <div class="item">
+                    <h4 class="date">May 18, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/28688">NREL Helps DOE Assess Progress “On the Path to SunShot” </a></h3>
+                    <p class="teaser">Analysts and researchers at the Energy Department's (DOE) National Renewable Energy Laboratory (NREL) played a significant role in a suite of studies released today by DOE’s SunShot Initiative that identify the progress made by the U.S. solar energy industry toward SunShot’s goal of achieving cost parity with traditional energy sources by 2020.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">May 14, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/27686">Winners for NREL’s 26th Solar and Lithium-Ion Car Races</a></h3>
+                    <p class="teaser">Fifty-seven teams from 15 Colorado middle schools gathered at Dakota Ridge High School in Littleton today for the 26th Annual Junior Solar Sprint and Lithium-Ion Battery car competitions. The day’s event drew nearly 200 students ready to compete and race the solar- and lithium-ion battery-powered vehicles they designed and built.  Ken Caryl Middle School (Littleton) swept the top speed awards winning trophies for the fastest solar-powered model car and the fastest lithium-ion battery-powered model car.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">May 13, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/26689">NREL Distributes Wind Competitiveness Improvement Project Round Four Funding</a></h3>
+                    <p class="teaser">The Energy Department’s (DOE) National Renewable Energy Laboratory (NREL) is awarding four subcontracts under the fourth round of funding through DOE’s Distributed Wind Competitiveness Improvement Project (CIP). </p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">May 5, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/26683">Energy Department Selects NREL Scientist for Exclusive Award</a></h3>
+                    <p class="teaser">Scientist Adele Tamboli of the Energy Department’s (DOE) National Renewable Energy Laboratory (NREL) has been awarded additional funding as part of a select group of scientists in the early stage of their careers.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">May 3, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/26682">NREL Scientists and Engineers Recognized for Top Innovations as Lab Celebrates another Record-Breaking Year of Inventions</a></h3>
+                    <p class="teaser">Today during its annual Innovation and Technology Transfer Awards ceremony, the U.S. Department of Energy’s (DOE) National Renewable Energy Laboratory (NREL) recognized researchers and staff for 169 new innovations, a record-breaking number of scientific and engineering inventions in fiscal year 2015 (FY15). This is a 33 percent increase from last year.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">April 29, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/26679">NREL’s Romero Chosen Top Young Professional in U.S.</a></h3>
+                    <p class="teaser">Rachel Romero, a building systems engineer at the Energy Department’s National Renewable Energy Laboratory (NREL), has been named a 2016 New Faces of Engineering recipient by the American Society of Heating, Refrigerating, and Air-Conditioning Engineers (ASHRAE).</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">April 25, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/25678">NREL Finds Nanotube Semiconductors Well-suited for PV Systems</a></h3>
+                    <p class="teaser">Researchers at the Energy Department’s National Renewable Energy Laboratory (NREL) discovered single-walled carbon nanotube semiconductors could be favorable for photovoltaic systems because they can potentially convert sunlight to electricity or fuels without losing much energy.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">April 22, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/25677">NREL Theory Establishes a Path to High-Performance 2D Semiconductor Devices</a></h3>
+                    <p class="teaser">Researchers at the Energy Department’s National Renewable Energy Laboratory (NREL) have uncovered a way to overcome a principal obstacle in using two-dimensional (2D) semiconductors in electronic and optoelectronic devices.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">April 21, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/25674">NREL Demonstrates Light-Driven Process for Enzymatic Ammonia Production</a></h3>
+                    <p class="teaser">A new process using light to reduce dinitrogen into ammonia, the main ingredient in chemical fertilizers could inspire development of new, more sustainable processes that eliminate the energy-intensive, lengthier processes now commonly in use. According to researchers at the Energy Department's National Renewable Energy Laboratory (NREL), photochemical (photon) energy can serve as a substitute for the adenosine 5’-triphosphate (ATP)-dependent electron transfer mechanism typically used in biology to drive nitrogenase to reduce dinitrogen (N2) to ammonia (NH3).</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">April 4, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/25667">NREL Reveals Potential for Capturing Waste Heat via Nanotubes</a></h3>
+                    <p class="teaser">A finely tuned carbon nanotube thin film has the potential to act as a thermoelectric power generator that captures and uses waste heat, according to researchers at the Energy Department’s National Renewable Energy Laboratory (NREL).</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">April 1, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/24667">NREL, SLAC Scientists Pinpoint Solar Cell Manufacturing Process</a></h3>
+                    <p class="teaser">Scientists at the Energy Department’s National Renewable Energy Laboratory (NREL) and SLAC National Accelerator Laboratory have been able to pinpoint for the first time what happens during a key manufacturing process of silicon solar cells.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">March 30, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/24666">Global Gathering Addresses PV Role in Energy Prosperity and Climate Change Mitigation</a></h3>
+                    <p class="teaser">Scientists from the Energy Department’s National Renewable Energy Laboratory (NREL), along with their counterparts from solar energy research institutes in Germany and Japan, gathered recently to discuss the future of photovoltaics (PV) and assess its contributions to increasing global prosperity, energy security and mitigation of climate change.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">March 24, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/24662">NREL Raises Rooftop Photovoltaic Technical Potential Estimate</a></h3>
+                    <p class="teaser">Analysts at the Energy Department’s National Renewable Energy Laboratory (NREL) have used detailed light detection and ranging (LiDAR) data for 128 cities nationwide, along with improved data analysis methods and simulation tools, to update its estimate of total U.S. technical potential for rooftop photovoltaic (PV) systems. The analysis reveals a technical potential of 1,118 gigawatts (GW) of capacity and 1,432 terawatt-hours (TWh) of annual energy generation, equivalent to 39 percent of the nation’s electricity sales. </p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">March 17, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/24656">NREL's Capabilities Boost a Wide Range of Innovative ARPA-E Research</a></h3>
+                    <p class="teaser">The Energy Department’s National Renewable Energy Laboratory (NREL) will play key roles in a variety of projects recently funded by the Department's Advanced Research Projects Agency-Energy (ARPA-E). NREL's innovative approaches have received five awards across three different ARPA-E programs for advancing transformational technologies to generate, store, and use energy more efficiently, at lower costs and with reduced emissions.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">March 10, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/24654">NREL to Collaborate with Small Clean Energy Businesses as Part of DOE Pilot Program</a></h3>
+                    <p class="teaser">The U.S. Department of Energy’s (DOE) National Renewable Energy Laboratory (NREL) will help the first group of small clean energy businesses advance their products under the Small Business Vouchers (SBV) pilot launched last July by DOE. </p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 29, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/23648">NREL Collaboration Boosts Potential for CdTe Solar Cells</a></h3>
+                    <p class="teaser">A critical milestone has been reached in cadmium telluride (CdTe) solar cell technology, helping pave the way for solar energy to directly compete with electricity generated by conventional energy sources.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 29, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/23654">Belgium's Red Electrical Devils Win $1 Million for Innovative Inverter Design</a></h3>
+                    <p class="teaser">Google and IEEE announced today that Belgium's Red Electrical Devils, a team from CE+T Power, has won the Little Box Challenge, a competition to invent a much smaller inverter for interconnecting solar power systems to the power grid. The success earned the team a $1 million prize while proving that inverters can be the size of a tablet or smaller rather than the size of a picnic cooler, more than a factor of 10 reduction in size. The Energy Department’s National Renewable Energy Laboratory (NREL) provided critical analysis of the 18 finalists teams’ inverters to help determine the winner.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 23, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/23645">NREL Seeks Participants for 2016 National Executive Energy Leadership Program </a></h3>
+                    <p class="teaser">The Energy Department’s National Renewable Energy Laboratory (NREL) is now accepting applications for its 2016 Executive Energy Leadership Program.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 22, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21645">Ridgeview Classical Charter Schools Wins 26th Colorado Science Bowl</a></h3>
+                    <p class="teaser">Students from Ridgeview Classical Charter Schools won the Colorado High School Science Bowl.  They will represent the state of Colorado at the U.S. Department of Energy's (DOE) National Science Bowl in Washington D.C., April 28– May 2, where they will compete against more than 400 students from 70 high schools for the national title.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 22, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/22645">NREL analysis finds tax credit extensions can impact renewable energy deployment and electric sector CO2 emissions </a></h3>
+                    <p class="teaser">The Energy Department’s National Renewable Energy Laboratory (NREL) today released new analysis exploring the potential impact of recently extended federal tax credits on the deployment of renewable generation technologies and related U.S. electric sector carbon dioxide (CO2) emissions.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 9, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21641">Renewable Fuels from Algae Boosted by NREL Refinery Process</a></h3>
+                    <p class="teaser">A new biorefinery process developed by scientists at the Energy Department’s National Renewable Energy Laboratory (NREL) has proven to be significantly more effective at producing ethanol from algae than previous research.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 8, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21638">NREL Helps Establish New PV Quality Standards for Manufacturers</a></h3>
+                    <p class="teaser">Working with partners around the world, researchers at the U.S. Department of Energy’s National Renewable Energy Laboratory (NREL) have completed five years of work toward helping establish an international quality standard for manufacturing photovoltaic (PV) modules.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 5, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21637">NREL Explains the Higher Cellulolytic Activity of a Vital Microorganism </a></h3>
+                    <p class="teaser">Researchers at the Energy Department’s National Renewable Energy Laboratory (NREL) and the BioEnergy Science Center (BESC) say better understanding of a bacterium could lead to cheaper production of cellulosic ethanol and other advanced biofuels.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">February 4, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21636">NREL Patents Method for Continuous Monitoring of Materials During Manufacturing </a></h3>
+                    <p class="teaser">The Energy Department’s National Renewable Energy Laboratory (NREL) was recently issued a patent for a novel method that rapidly characterizes specialized materials during the manufacturing process. This approach significantly improves on standard quality control techniques by allowing for complete monitoring of materials without interrupting workflow.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">January 14, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21618">DOE Announces New Projects to Modernize America’s Electric Grid</a></h3>
+                    <p class="teaser">Today, U.S. Department of Energy Secretary Ernest Moniz announced up to $220 million in new funding for a consortium of DOE national laboratories and partners to support critical research and development over the next three years to help modernize our nation’s electrical power grid. The secretary also announced the release of DOE’s comprehensive new Grid Modernization Multi-Year Program Plan (MYPP), a blueprint for the Department’s research, development, and demonstration agenda to enable a modernized grid. The National Renewable Energy Laboratory (NREL) will be strongly supporting this effort, bringing its unique array of experts and resources together to participate in 48 of the 88 awarded projects announced today.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">January 12, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21617">NREL Theorizes Defects Could Improve Solar Cells </a></h3>
+                    <p class="teaser">Scientists at the Energy Department's National Renewable Energy Laboratory (NREL) are studying what may seem paradoxical - certain defects in silicon solar cells may actually improve their performance.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">January 6, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21615">Renewable Energy used in State Renewable Portfolio Standards Yielded Sizable Benefits and Other Impacts in 2013</a></h3>
+                    <p class="teaser">A new study by researchers from the U.S. Department of Energy’s National Renewable Energy Laboratory (NREL) and Lawrence Berkeley National Laboratory (Berkeley Lab) estimates that $2.2 billion in benefits came from reduced greenhouse gas emissions and $5.2 billion from reductions in other air pollution, in mid-range estimates, for state renewable portfolio standard (RPS) policies operating in 2013. RPS policies require utilities or other electricity providers to meet a minimum portion of their load with eligible forms of renewable electricity.</p>
+                </div>
+
+                <div class="item">
+                    <h4 class="date">January 5, 2016</h4>
+                    <h3 class="headline"><a href="/news/press/2016/21613">NREL and CSEM Jointly Set New Efficiency Record with Dual-Junction Solar Cell</a></h3>
+                    <p class="teaser">Scientists at the Energy Department’s National Renewable Energy Laboratory (NREL) and at the Swiss Center for Electronics and Microtechnology (CSEM) have jointly set a new world record for converting non-concentrated (1-sun) sunlight into electricity using a dual-junction III-V/Si solar cell.</p>
+                </div>
+
+
+            <h2>Archives</h2>
+            <p>
+                <a href="/news/press/2015/">2015</a>&nbsp;|&nbsp;
+                <a href="/news/press/2014/">2014</a>&nbsp;|&nbsp;
+                <a href="/news/press/2013/">2013</a>&nbsp;|&nbsp;
+                <a href="/news/press/2012/">2012</a>&nbsp;|&nbsp;
+                <a href="/news/press/2011/">2011</a>&nbsp;|&nbsp;
+                <a href="/news/press/2010/">2010</a>&nbsp;|&nbsp;
+                <a href="/news/press/2009/">2009</a>&nbsp;|&nbsp;
+                <a href="/news/press/2008/">2008</a>&nbsp;|&nbsp;
+                <a href="/news/press/2007/">2007</a>&nbsp;|&nbsp;
+                <a href="/news/press/2006/">2006</a>&nbsp;|&nbsp;
+                <a href="/news/press/2005/">2005</a>&nbsp;|&nbsp;
+                <a href="/news/press/2004/">2004</a>&nbsp;|&nbsp;
+                <a href="/news/press/2003/">2003</a>&nbsp;|&nbsp;
+                <a href="/news/press/2002/">2002</a>  | <a href="/news/press/2001/">2001</a>  | <a href="/news/press/2000/">2000</a>  | <a href="/news/press/1999/">1999</a>  | <a href="/news/press/1998/">1998</a>  | <a href="/news/press/1997/">1997</a>  | <a href="/news/press/1996/">1996</a>  | <a href="/news/press/1995/">1995</a>
+            </p>
+
+    </div>
+    <!--stopindex-->
+<div class="col-sm-3 col-sm-pull-9 ">
+    <nav class="sidenav" role="navigation">
+
+        <ul class="nav hide">
+            <li><a href="/about/mission-programs.html">Mission &amp; Programs</a></li>
+            <li><a href="/about/technology-transfer.html">Technology Transfer</a></li>
+            <li><a href="/innovation/">Impact</a></li>
+            <li><a href="/about/leadership.html">Leadership</a></li>
+
+            <li><a href="/about/community.html">Community</a>
+                <ul class="nav hide">
+                <li><a href="/education_center/">Education Center</a>
+                <li><a href="/about/responsibility.html">Community Involvement</a>
+                <li><a href="/about/business.html">Economic Impact</a>
+                <li><a href="/about/sustainability.html">Sustainability</a></li>
+                <li><a href="/about/ehs.html">Environment, Health, &amp; Safety</a></li>
+              </ul>
+            </li>
+            <li><a href="/about/visiting-nrel.html">Visiting NREL</a>
+                <ul class="nav hide" >
+                    <li><a href="/about/golden.html">Golden Laboratories &amp; Offices</a>
+                        <ul class="nav hide">
+                        <li><a href="/about/golden-info.html">Local Information</a></li>
+                        <li><a href="/about/golden-security.html">Security Procedures</a></li>
+                        </ul></li>
+                    <li><a href="/about/nwtc.html">National Wind Technology Center</a>
+                        <ul class="nav hide" >
+                        <li><a href="/about/nwtc-info.html">Local Information</a></li>
+                        </ul></li>
+                    <li><a href="/education_center/">Education Center</a></li>
+                    <li><a href="/about/dc.html">Washington, D.C. Office</a>
+                        <ul class="nav hide">
+                        <li><a href="/about/dc-info.html">Local Information</a></li>
+                        </ul></li>
+                </ul>
+            </li>
+            <li><a href="/about/awards.html">Awards</a>
+                <ul class="nav hide">
+                <li><a href="/about/rd-awards.html">R&amp;D 100 Awards</a></li>
+                <li><a href="/about/science-awards.html">Scientific &amp; Organizational Awards</a></li>
+                <li><a href="/about/building-awards.html">Building Awards</a></li>
+                </ul>
+            </li>
+            <li><a href="/news/">Newsroom</a>
+                <ul class="nav hide">
+                <li><a href="/news/features/">Feature Stories</a></li>
+                <li><a href="/news/press/">News Releases</a></li>
+                </ul>
+            </li>
+            <li><a href="/about/contacts.html">Contact Us</a></li>
+        </ul>
+
+    </nav>
+</div>
+<!--startindex-->
+
+
+</div>
+
+<!-- ============== -->
+<!-- END OF CONTENT -->
+<!-- ============== -->
+</div>
+<!-- GLOBAL FOOTER -->
+
+<!-- == GLOBAL FOOTER == -->
+<!--#if expr="( $SCRIPT_NAME != '/index.html' )" -->
+<div id="page-tools">
+    <!-- ADDTHIS WIDGET -->
+    <!--stopindex-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-3">
+            <hr>
+
+                <div class="addthis_toolbar">
+                <a class="addthis_button_expanded btn btn-default"><i class="fa fa-share"></i> Share</a>
+                <a class="addthis_button_email btn btn-default"><i class="fa fa-envelope"></i> Email</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--startindex-->
+    <!-- END ADDTHIS WIDGET -->
+
+
+
+    <!-- FEEDBACK WIDGET -->
+    <!--stopindex-->
+    <!--#include virtual="/server/feedback/index.html"-->
+    <!--startindex-->
+    <!-- END FEEDBACK WIDGET -->
+</div>
+<!--#endif-->
+
+
+<!--stopindex-->
+<footer id="footer">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-10 col-sm-push-2">
+            <div class="row">
+                <div class="col-sm-2">
+                    <p class="header"><a href="/">Home <i class="fa fa-angle-double-right"></i></a></p>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="header"><a href="/research/">Research <i class="fa fa-angle-double-right"></i></a></p>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/bioenergy/">Bioenergy</a></li>
+                        <li><a href="/buildings/">Buildings Efficiency</a></li>
+                        <li><a href="https://energysciences.nrel.gov/chemical_materials/chemistry_and_nanoscience">Chemistry &amp; Nanoscience</a></li>
+                        <li><a href="https://energysciences.nrel.gov/csc">Computational Science</a></li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/csp/">Concentrating Solar Power</a></li>
+                        <li><a href="/electricity/">Electricity Integration</a></li>
+                        <li><a href="/analysis/">Energy Analysis</a></li>
+                        <li><a href="/esi/">Energy Systems Integration</a></li>
+                        <li><a href="/geothermal/">Geothermal Energy</a></li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/hydrogen/">Hydrogen &amp; Fuel Cells</a></li>
+                        <li><a href="/materials-science/">Materials Science</a></li>
+                        <li><a href="/pv/">Photovoltaics</a></li>
+                        <li><a href="/solar/">Solar</a></li>
+                        <li><a href="/tech_deployment/">Technology Deployment</a></li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/transportation/">Transportation</a></li>
+                        <li><a href="/water">Water Power</a></li>
+                        <li><a href="/wind/">Wind Energy</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Follow -->
+                <div class="col-sm-2">
+                    <p class="header">Follow NREL</p>
+                    <ul class="social-links list-inline">
+                    <li><a href="https://www.facebook.com/nationalrenewableenergylab"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="/news/"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://twitter.com/nrel/"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/national-renewable-energy-laboratory"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/NRELPR/"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/nationalrenewableenergylab/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="http://feeds.feedburner.com/NrelFeatureStories"><i class="fa fa-rss-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- NREL is... -->
+        <div class="col-sm-2 col-sm-pull-10 border-right">
+            <div class="row">
+                <div class="col-sm-12 only-nrel">
+                    <p class="nrel-attr">NREL is a national laboratory of the <a href="http://energy.gov/">U.S. Department of Energy</a>, <a href="http://energy.gov/eere/office-energy-efficiency-renewable-energy">Office of Energy Efficiency and Renewable Energy</a>, operated by the <a href="http://www.allianceforsustainableenergy.org/">Alliance for Sustainable Energy, LLC</a>.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                    <li><a href="/security.html">Security &amp; Privacy Policy</a></li>
+                    <li><a href="/accessibility.html">Accessibility</a></li>
+                    <li><a href="/disclaimer.html">Disclaimer</a></li>
+                    <li><a id="contact-link" href="/webmaster.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                    <li><a href="/careers/">Apply for a Job</a></li>
+                    <li><a href="http://developer.nrel.gov/">Developers</a></li>
+                    <li><a href="http://energy.gov">Energy.gov</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 border-right">
+            <img src="/client/img/logo_doe_footer.svg" alt="U.S. Department of Energy" class="logo">
+        </div>
+    </div>
+
+
+
+    </div>
+</footer>
+<!--startindex-->
+<!-- == END GLOBAL FOOTER == -->
+
+
+<!-- SITE SCRIPTS -->
+<!-- Global plugins -->
+<script src="/client/js/newsy/jquery.newsy.min.js"></script>
+
+
+<!-- Local plugins -->
+<!-- <script src="client/js/plugins.min.js"></script> -->
+
+
+<!-- Application / initialization -->
+<script src="/news/client/js/app.min.js"></script>
+
+
+
+<!-- GLOBAL SCRIPTS -->
+
+    <!-- == GLOBAL SCRIPTS == -->
+    <!-- Bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Lightbox plugin -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js"></script>
+
+    <!-- Icons plugin -->
+    <script src="/client/js/iconomatic/jquery.iconomatic.min.js"></script>
+
+    <!-- AddThis Widget -->
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=nrel" async></script>
+
+    <!-- JW Player -->
+    <script src="/client/vendor/jw6/jwplayer.js"></script>
+    <script>jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script>
+
+    <!-- Global plugins -->
+    <!-- <script src="/client/js/plugins.min.js"></script> -->
+
+    <!-- Global scripts -->
+    <script src="/client/js/app.min.js"></script>
+    <!-- == END GLOBAL SCRIPTS == -->
+
+
+</body>
+</html>
+<!-- 1 -->

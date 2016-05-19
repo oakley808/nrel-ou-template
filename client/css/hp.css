@@ -1,0 +1,283 @@
+/*
+ *  GENERAL TYPOGRAPHY
+ ************************************************************/
+
+body {
+    color: #333;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.65;
+    padding: 0;
+}
+
+
+/*
+ *  Headlines
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto";
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3em;
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: 300;
+  color: #e07700;
+}
+h3 {
+  font-weight: 400;
+}
+h4 {
+    font-size: 1.3em;
+    color: #0079C2;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+p {
+
+}
+.lead {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+/*
+ *  Links
+ *************/
+a {
+    color: #0079c2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #609;
+}
+
+a:hover,
+a:active {
+  color: #cc6600;
+  text-decoration: underline;
+}
+
+/* .blue and .green are typically headers that are linked */
+.blue a:visited  {
+    color: #0079C2;
+}
+
+.green a:visited {
+    color: #5D9732;
+}
+
+.fileIcon {
+    margin-left: 5px;
+}
+
+/*
+ * Black boxed content
+ */
+.content-list-widget {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.2;
+    margin-bottom: 3em;
+}
+
+.content-list-widget:before,
+.content-list-widget:after,
+.content-list-widget .content-box:before,
+.content-list-widget .content-box:after {
+    display: table;
+    content: " ";
+}
+.content-list-widget:after,
+.content-list-widget .content-box:after {
+    clear: both;
+}
+
+
+.content-list-widget .header-box {
+    background-color: #000;
+    border-bottom: 5px solid #0079C2;
+}
+
+.content-list-widget .header-box .title {
+    color: #FFC423;
+    font-size: 1.35em;
+    margin-bottom: 0;
+    padding: .8em;
+    text-transform: uppercase;
+}
+
+.content-list-widget .content-box {
+    border: 1px solid #D1D5D8;
+    padding: 1em;
+    margin: 0;
+}
+
+.content-list-widget .list {
+    padding-left: 1.35em;
+    min-height: 170px;
+}
+
+.content-list-widget .title+.list {
+    border-top: 1px solid #D1D5D8;
+    margin-top: .5em;
+    padding-top: .75em;
+}
+
+.content-list-widget .list,
+.content-list-widget .btn-link {
+    text-decoration: none;
+    text-transform: none;
+}
+.content-list-widget .btn-link:visited {
+    color:#0079c2;
+}
+
+.content-list-widget .text-left .btn-link  {
+    margin-left: 0;
+    padding-left: 0;
+}
+.content-list-widget .list .headline,
+.content-list-widget .list .date  {
+    margin-bottom: 0;
+}
+.content-list-widget .list .date {
+    color:#5E6A71;
+}
+.content-list-widget .footnotes{
+    border-top: 1px solid #D1D5D8;
+    padding-top: 1em;
+}
+
+
+.content-list-widget .text-right {
+    text-align: inherit; /* on small screens, don't right align unless parent does */
+}
+@media (min-width:768px) {
+    .content-list-widget .text-right {
+        text-align: right;
+    }
+}
+
+/*
+ *  HP Feature space
+ ************************************************************/
+
+.feature-secondary .link-tile {
+    margin-top: 24px;
+}
+
+@media(min-width:768px){
+    .feature-secondary .link-tile {
+        margin-top: 0px;
+    }
+}
+
+.feature-secondary .link-tile + .link-tile {
+    margin-top:24px;
+}
+
+@media(min-width:768px){
+    .showcase {
+        height:431px;
+    }
+}
+@media(min-width:992px){
+    .showcase {
+        height:545px;
+    }
+}
+@media(min-width:1200px){
+    .showcase {
+        height:649px;
+    }
+}
+.showcase {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    opacity: 0;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.showcase .caption {
+    background: #000;
+    background-color: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.1;
+    padding: .5em 1em;
+    position:relative;
+}
+
+@media(min-width:768px) {
+    .showcase .caption {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: absolute;
+    }
+}
+
+
+.showcase .link-tile,
+.showcase .link-tile {
+    position: relative;
+}
+
+.showcase .feature-primary .caption {
+    font-size: 30px;
+}
+
+.showcase .feature-secondary .caption {
+    font-size: 20px;
+}
+
+.highlights h4 {
+    margin-top: 0;
+}
+
+.modal-footer {
+    text-align: left;
+}
+
+/*
+Modal bugfix http://stackoverflow.com/questions/18622508/bootstrap-3-and-youtube-in-modal
+*/
+.modal.fade .modal-dialog {
+    transform: none !important;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+       -o-transition: -o-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.modal.in .modal-dialog {
+    transform: none !important;
+}
+/*
+ *  HIGHLIGHTS
+ ************************************************************/
+
+.highlights {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+
+
+

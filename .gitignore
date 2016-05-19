@@ -1,0 +1,7 @@
+*~
+.DS_Store
+_noctp/
+_proofs/
+.svn/
+node_modules/
+Thumbs.db

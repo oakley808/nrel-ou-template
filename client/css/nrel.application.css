@@ -1,0 +1,60 @@
+/*
+
+Todo: minify
+
+*/
+header {
+    border-bottom: none;
+}
+
+#content {
+    margin-top:.5em;
+}
+
+.app-topnav .navbar-inverse .navbar-nav > li.active > a, .app-topnav .navbar-inverse .navbar-nav > li.active > a:hover {
+    background-color: #5e6a71;
+    border-top: 3px solid #62d2ff;
+}
+
+@media (min-width: 768px) {
+    header {
+        border-bottom: 9px solid #005D92;
+    }
+
+    #content {
+        margin-top:1em;
+    }
+}
+
+header .logo {
+    background-position: center center;
+}
+
+@media (min-width: 768px) {
+    header .logo {
+        background-position: center right;
+    }
+}
+
+
+header a.app-name,
+header a.app-name:visited,
+header a.app-name:hover {
+    color: #fff;
+    display: block;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height:1.2em;
+    margin:0 0 0.3em 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    header a.app-name,
+    header a.app-name:visited,
+    header a.app-name:hover {
+        margin-top:28px;
+        text-align: left;
+    }
+}

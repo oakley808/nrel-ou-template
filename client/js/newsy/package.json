@@ -1,0 +1,24 @@
+
+{
+  "name": "newsy",
+  "author": "Michael Oakley",
+  "version": "1.0.0",
+  "description": "Pull news and events JSON data from the NREL N/E db. Provides basic templating on the front-end.",
+  "main": "jquery.newsy.js",
+  "scripts": {
+    "test": "echo \"Testing?  \" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.nrel.gov/communications/nrel-newsy.git"
+  },
+  "keywords": [
+    "news",
+    "jquery",
+    "grunt"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-uglify": "^0.4.0"
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Email Contact for NREL.gov | NREL</title>
+    <!-- GLOBAL STYLES -->
+    <!--#include virtual="/client/template/head.html" -->
+
+    <!-- LOCAL STYLES -->
+    <link href="/client/css/styles.min.css" rel="stylesheet" >
+
+</head>
+<body>
+<!-- GLOBAL NREL BANNER -->
+<!--#include virtual="/client/template/banner.html" -->
+
+
+<!-- GLOBAL CORPORATE TOP NAV -->
+<!--#include virtual="/client/template/topnav.html" -->
+
+
+<!-- GLOBAL BREADCRUMBS -->
+<!--#include virtual="/client/template/breadcrumbs.html" -->
+<div class="container" id="content">
+<!-- ============= -->
+<!-- BEGIN CONTENT -->
+<!-- ============= -->
+
+
+
+<script>
+$(document).ready( function(){
+
+    var slash = location.pathname.lastIndexOf('/') + 1;
+    $('.contact-form input[name="site"]').attr('value', location.pathname.substr(0,slash)  )
+
+
+    $('.contact-form').on( 'submit', function(){
+
+        var jqxhr = $.ajax({
+            url  : '/server/contact-form/contact-form.cfc?method=contactEmail'
+          , type : 'POST'
+          , data : $('.contact-form').serialize()
+        });
+
+        jqxhr.done(function(){ $('.msg-success').removeClass('hide');});
+        jqxhr.fail(function(){ $('.msg-danger').removeClass('hide');});
+        jqxhr.always(function(){
+            $('.contact-form').hide();
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+        });
+
+        return false;
+    });
+});
+</script>
+
+
+
+
+<div class="row">
+    <!-- MAIN CONTENT -->
+    <div class="col-sm-9 col-sm-offset-3">
+
+
+
+            <h1>Email Contact for NREL.gov</h1>
+
+            <p class="lead">Use this form to send us your comments and questions, to report problems with the site, or to ask for help in finding information on our site.</p>
+
+            <p>To contact the Webmaster, please provide your name, e-mail address, and message below. When you are finished, click "Send Message." NOTE: If you enter your e-mail address incorrectly, we will be unable to reply.</p>
+
+            <!--#include virtual="/server/contact-form/webmasterform.html" -->
+        <!--#endif-->
+
+
+    </div>
+    <!-- END MAIN CONTENT -->
+
+
+    <!-- SIDE NAVIGATION -->
+    <!-- #include virtual="/client/template/sidenav.html" -->
+    <!-- END SIDE NAVIGATION -->
+</div>
+
+
+
+
+<!-- ============== -->
+<!-- END OF CONTENT -->
+<!-- ============== -->
+</div>
+<!-- GLOBAL FOOTER -->
+<!--#include virtual="/client/template/footer.html" -->
+
+
+<!-- GLOBAL SCRIPTS -->
+<!--#include virtual="/client/template/scripts.html" -->
+</body>
+</html>

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>2016 Feature Stories | NREL</title>
+
+
+    <!-- Solr -->
+
+        <meta http-equiv="last-modified" content="2016-05-16@12:00:00 MST">
+
+    <!-- GLOBAL STYLES -->
+
+    <!-- == GLOBAL HEAD == -->
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+
+    <!-- iOS icons -->
+    <link rel="apple-touch-icon" href="/client/img/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="72x72"   href="/client/img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/client/img/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/client/img/touch-icon-ipad-retina.png">
+
+
+    <!-- Bootstrap styles -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" media="all">
+
+
+    <!-- GLOBAL styles -->
+    <link href="/client/css/nrel.complete.min.css" rel="stylesheet">
+
+
+    <!-- Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700%7CRoboto:300,400,700" rel="stylesheet" type="text/css">
+
+
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+    <!-- Google Analytics-->
+    <script type="text/javascript">
+     (function() {
+        var so = document.createElement('script'); so.type = 'text/javascript'; so.async = true;
+        so.src = '//www.nrel.gov/includes/ga/nrel.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(so, s);
+      })();
+    </script>
+    <!-- == END GLOBAL HEAD == -->
+
+
+
+
+
+    <!-- SITE STYLES -->
+    <link href="/news/client/css/styles.min.css" rel="stylesheet" >
+    <script>
+        $(function() {
+            window.nrel = $.extend( {}, window.nrel );
+
+            // Our archive index templates need to have a hyperlinked left nav.
+            // Our current year index template does not need a link.
+
+            nrel.temp = {
+                pageurl: '/news/features/'
+              , sidenavButton: ''
+            }
+
+            if ( location.pathname !== nrel.temp.pageurl ) {
+                nrel.temp.sidenavButton = nrel.temp.pageurl;
+            }
+
+            nrel.pagevars = {
+                pageurl: nrel.temp.pageurl
+              , sidenavButton: nrel.temp.sidenavButton
+            };
+
+            delete nrel.temp;
+        });
+    </script>
+</head>
+<body>
+<!-- GLOBAL NREL BANNER -->
+<!-- == GLOBAL BANNER == -->
+<!--stopindex-->
+<a href="#content" class="sr-only">Skip to main content</a>
+
+<header role="banner" id="banner">
+    <div class="banner-logo">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6">
+                    <a href="/"><div class="logo"></div></a>
+                </div>
+
+                <button
+                    type="button"
+                    class="navbar-toggle searchbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#searchbar-collapse">
+
+                    <i class="fa fa-search"></i><span class="sr-only">Toggle Search</span>
+                </button>
+
+                <div class="col-sm-6">
+                    <div class="navbar-collapse collapse" id="searchbar-collapse">
+
+                        <form
+                            role="form"
+                            name="seek"
+                            method="get"
+                            class="searchbar-form form-inline"
+                            action="http://search2.nrel.gov">
+
+                            <input type="hidden" name="ourl" id="bannerourl" onload />
+                            <input type="hidden" name="rows" value="10" />
+
+                            <div class="form-group">
+                                <label for="search" class="sr-only">Search NREL.gov</label>
+                                <input
+                                    type="text"
+                                    name="q" id="search"
+                                    maxlength="2047"
+                                    placeholder="Search NREL.gov"
+                                    class="form-control">
+
+                                <button type="submit" class="btn btn-default">Search</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="banner-wordo">
+        <div class="container">
+            <div class="row visible-xs">
+                <div class="col-sm-12">
+                    <div class="wordo">National Renewable Energy Laboratory</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!--startindex-->
+<!-- == END GLOBAL BANNER == -->
+
+
+
+
+<!-- GLOBAL CORPORATE TOP NAV -->
+<!-- == TOP NAVIGATION == -->
+<!--stopindex-->
+<div class="navbar-wrapper corporate-topnav" id="topnav">
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <span class="navbar-brand hidden-xs">Leading Clean Energy Innovation</span>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class="dropdown" data-topnav="about"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="fa fa-angle-down hidden-xs"></span></a>
+
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/about/">About NREL <i class="fa fa-home"></i></a></li>
+                        <li><a href="/about/mission-programs.html">Mission &amp; Programs</a></li>
+                        <li><a href="/about/technology-transfer.html">Technology Transfer</a></li>
+                        <li><a href="/innovation/">Impact</a></li>
+                        <li><a href="/about/leadership.html">Leadership</a></li>
+                        <li><a href="/about/community.html">Community</a></li>
+                        <li><a href="/about/visiting-nrel.html">Visiting NREL</a></li>
+                        <li><a href="/about/awards.html">Awards</a></li>
+                        <li><a href="/news/">Newsroom</a></li>
+                        <li><a href="/about/contacts.html">Contact Us</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown" data-topnav="research"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <span class="fa fa-angle-down hidden-xs"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/research/">Research <i class="fa fa-home"></i></a></li>
+                        <li><a href="/research/highlights.html">Highlights</a></li>
+                        <li><a href="/research/publications.html">Publications</a></li>
+                        <li><a href="/research/collaborations.html">Collaborations</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="dropdown" data-topnav="workingwithus"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Working With Us <span class="fa fa-angle-down hidden-xs"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/workingwithus/">Working With Us <i class="fa fa-home"></i></a></li>
+                        <li><a href="/workingwithus/partnership-opportunities.html">Partnerships</a></li>
+                        <li><a href="/workingwithus/partnering-facilities.html">Facilities</a></li>
+                        <li><a href="/workingwithus/licensing.html">Licensing</a></li>
+                        <li><a href="/workingwithus/commercialization.html">Commercialization</a></li>
+                        <li><a href="/workingwithus/procurement.html">Procurement</a></li>
+                        <li><a href="/workingwithus/energy-education.html">Energy Education</a> </li>
+                        <li><a href="/workingwithus/success-stories.html">Success Stories</a></li>
+                        <li><a href="/workingwithus/faqs.html">FAQs</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Careers <span class="fa fa-angle-down hidden-xs"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/careers/">Careers <i class="fa fa-home"></i></a></li>
+                        <li><a href="/careers/find-job.html">Find a Job</a></li>
+                        <li><a href="/careers/your-career.html">Your Career at NREL</a></li>
+                        <li><a href="/careers/interns-post-docs.html">Interns &amp; Postdocs</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+      </div>
+    </div>
+</div>
+<!--startindex-->
+<!-- == END TOP NAVIGATION == -->
+
+
+
+<!-- GLOBAL BREADCRUMBS -->
+<!--stopindex-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <ol class="breadcrumb invisible">
+                    <li><a href="/" title="NREL.gov"><span class="home"><i class="fa fa-home"></i></span></a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+<!--startindex-->
+<div class="container" id="content">
+
+    <div class="row">
+        <div class="col-sm-9 col-sm-push-3">
+
+
+        <h1>2016 Feature Stories</h1>
+
+
+        <p class="lead">The following feature stories take an in-depth, behind-the-scenes look at how NREL is advancing energy efficiency and renewable energy technologies. </p>
+
+
+                <h4>May 2016</h4>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/26688"><img src='/assets/images/20160513_geo-36818_hp_@2x.jpg' alt="NREL Helping the Bureau of Land Management Dive Further into Hot Water" class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/26688">NREL Helping the Bureau of Land Management Dive Further into Hot Water</a></h3>
+                                <p>Geothermal program boosted by greater access to data.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <hr>
+
+                <h4>April 2016</h4>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/25673"><img src='/assets/images/20160414_ginley-17602_hp_@2x.jpg' alt="Researcher's Love for Science Starts with a Bang and Continues to Sizzle" class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/25673">Researcher's Love for Science Starts with a Bang and Continues to Sizzle</a></h3>
+                                <p>NREL research fellow and chief scientist Dave Ginley's passion for science began at an early age—and continues to burn.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <hr>
+
+                <h4>March 2016</h4>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/24665"><img src='/assets/images/20160329-tribal-16550_hp_@2x.jpg' alt="NREL Supports Native American Tribes in Clean Energy Transformational Leadership" class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/24665">NREL Supports Native American Tribes in Clean Energy Transformational Leadership</a></h3>
+                                <p>From the subzero tundra in Alaska to the Southwest, NREL is partnering with Native American tribes and Alaska Native villages to advance clean energy goals.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/24659"><img src='/assets/images/20160321_ldrd-36036_hp_@2x.jpg' alt="LDRD Program Gives NREL Researchers Path Toward Innovation" class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/24659">LDRD Program Gives NREL Researchers Path Toward Innovation</a></h3>
+                                <p>Funding source provides scientists with method to propel progress forward.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/24650"><img src='/assets/images/20160308_science-bowl_hp.jpg' alt="Colorado School Earns Return Trip to National Science Bowl " class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/24650">Colorado School Earns Return Trip to National Science Bowl </a></h3>
+                                <p>Ridgeview Classical Charter School scores convincing victory at Colorado Science Bowl to secure trip to national competition.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <hr>
+
+                <h4>February 2016</h4>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/21635"><img src='/assets/images/20160204_solar-35457_hp_@2x.jpg' alt="Claims for Solar Cell Efficiency Put to Test at NREL" class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/21635">Claims for Solar Cell Efficiency Put to Test at NREL</a></h3>
+                                <p>Record numbers carefully vetted by scientists to assure accuracy.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <hr>
+
+                <h4>January 2016</h4>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/21622"><img src='/assets/images/20160122_transportation-35357_hp_@2x.jpg' alt="NREL Launches Sustainable Mobility Initiative, Joins CDOT Partnership" class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/21622">NREL Launches Sustainable Mobility Initiative, Joins CDOT Partnership</a></h3>
+                                <p>NREL initiative approaches sustainable transportation as an integrated system, where travelers and transportation resources are viewed as a dynamic network.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="media-block">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="/news/features/2016/21612"><img src='/assets/images/20151230_cyber_34505_hp_@2x.jpg' alt="NREL's Cybersecurity Initiative Aims to Wall Off the Smart Grid from Hackers" class="img-responsive"></a>
+                            </div>
+
+                            <div class="col-sm-9">
+                                <h3 class="header"><a href="/news/features/2016/21612">NREL's Cybersecurity Initiative Aims to Wall Off the Smart Grid from Hackers</a></h3>
+                                <p>NREL is working with two-way power grid communications technologies, which can act like an independent "electricity-only Internet."</p>
+                            </div>
+                        </div>
+                    </div>
+
+                <hr>
+
+
+        <h2>Archives</h2>
+        <ul class="list-pipes list-inline">
+
+                <li>2016</li>
+
+                <li><a href="/news/features/2015/">2015</a></li>
+
+                <li><a href="/news/features/2014/">2014</a></li>
+
+                <li><a href="/news/features/2013/">2013</a></li>
+
+                <li><a href="/news/features/2012/">2012</a></li>
+
+                <li><a href="/news/features/2011/">2011</a></li>
+
+                <li><a href="/news/features/2010/">2010</a></li>
+
+                <li><a href="/news/features/2009/">2009</a></li>
+
+                <li><a href="/news/features/2008/">2008</a></li>
+
+                <li><a href="/news/features/2007/">2007</a></li>
+
+                <li><a href="/news/features/2006/">2006</a></li>
+
+                <li><a href="/news/features/2004/">2004</a></li>
+
+                <li><a href="/news/features/2003/">2003</a></li>
+
+        </ul>
+
+    </div>
+    <!--stopindex-->
+<div class="col-sm-3 col-sm-pull-9 ">
+    <nav class="sidenav" role="navigation">
+
+        <ul class="nav hide">
+            <li><a href="/about/mission-programs.html">Mission &amp; Programs</a></li>
+            <li><a href="/about/technology-transfer.html">Technology Transfer</a></li>
+            <li><a href="/innovation/">Impact</a></li>
+            <li><a href="/about/leadership.html">Leadership</a></li>
+
+            <li><a href="/about/community.html">Community</a>
+                <ul class="nav hide">
+                <li><a href="/education_center/">Education Center</a>
+                <li><a href="/about/responsibility.html">Community Involvement</a>
+                <li><a href="/about/business.html">Economic Impact</a>
+                <li><a href="/about/sustainability.html">Sustainability</a></li>
+                <li><a href="/about/ehs.html">Environment, Health, &amp; Safety</a></li>
+              </ul>
+            </li>
+            <li><a href="/about/visiting-nrel.html">Visiting NREL</a>
+                <ul class="nav hide" >
+                    <li><a href="/about/golden.html">Golden Laboratories &amp; Offices</a>
+                        <ul class="nav hide">
+                        <li><a href="/about/golden-info.html">Local Information</a></li>
+                        <li><a href="/about/golden-security.html">Security Procedures</a></li>
+                        </ul></li>
+                    <li><a href="/about/nwtc.html">National Wind Technology Center</a>
+                        <ul class="nav hide" >
+                        <li><a href="/about/nwtc-info.html">Local Information</a></li>
+                        </ul></li>
+                    <li><a href="/education_center/">Education Center</a></li>
+                    <li><a href="/about/dc.html">Washington, D.C. Office</a>
+                        <ul class="nav hide">
+                        <li><a href="/about/dc-info.html">Local Information</a></li>
+                        </ul></li>
+                </ul>
+            </li>
+            <li><a href="/about/awards.html">Awards</a>
+                <ul class="nav hide">
+                <li><a href="/about/rd-awards.html">R&amp;D 100 Awards</a></li>
+                <li><a href="/about/science-awards.html">Scientific &amp; Organizational Awards</a></li>
+                <li><a href="/about/building-awards.html">Building Awards</a></li>
+                </ul>
+            </li>
+            <li><a href="/news/">Newsroom</a>
+                <ul class="nav hide">
+                <li><a href="/news/features/">Feature Stories</a></li>
+                <li><a href="/news/press/">News Releases</a></li>
+                </ul>
+            </li>
+            <li><a href="/about/contacts.html">Contact Us</a></li>
+        </ul>
+
+    </nav>
+</div>
+<!--startindex-->
+
+</div>
+
+<!-- ============== -->
+<!-- END OF CONTENT -->
+<!-- ============== -->
+</div>
+<!-- GLOBAL FOOTER -->
+
+<!-- == GLOBAL FOOTER == -->
+<!--#if expr="( $SCRIPT_NAME != '/index.html' )" -->
+<div id="page-tools">
+    <!-- ADDTHIS WIDGET -->
+    <!--stopindex-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-3">
+            <hr>
+
+                <div class="addthis_toolbar">
+                <a class="addthis_button_expanded btn btn-default"><i class="fa fa-share"></i> Share</a>
+                <a class="addthis_button_email btn btn-default"><i class="fa fa-envelope"></i> Email</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--startindex-->
+    <!-- END ADDTHIS WIDGET -->
+
+
+
+    <!-- FEEDBACK WIDGET -->
+    <!--stopindex-->
+    <!--#include virtual="/server/feedback/index.html"-->
+    <!--startindex-->
+    <!-- END FEEDBACK WIDGET -->
+</div>
+<!--#endif-->
+
+
+<!--stopindex-->
+<footer id="footer">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-10 col-sm-push-2">
+            <div class="row">
+                <div class="col-sm-2">
+                    <p class="header"><a href="/">Home <i class="fa fa-angle-double-right"></i></a></p>
+                </div>
+                <div class="col-sm-8">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="header"><a href="/research/">Research <i class="fa fa-angle-double-right"></i></a></p>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/bioenergy/">Bioenergy</a></li>
+                        <li><a href="/buildings/">Buildings Efficiency</a></li>
+                        <li><a href="https://energysciences.nrel.gov/chemical_materials/chemistry_and_nanoscience">Chemistry &amp; Nanoscience</a></li>
+                        <li><a href="https://energysciences.nrel.gov/csc">Computational Science</a></li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/csp/">Concentrating Solar Power</a></li>
+                        <li><a href="/electricity/">Electricity Integration</a></li>
+                        <li><a href="/analysis/">Energy Analysis</a></li>
+                        <li><a href="/esi/">Energy Systems Integration</a></li>
+                        <li><a href="/geothermal/">Geothermal Energy</a></li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/hydrogen/">Hydrogen &amp; Fuel Cells</a></li>
+                        <li><a href="/materials-science/">Materials Science</a></li>
+                        <li><a href="/pv/">Photovoltaics</a></li>
+                        <li><a href="/solar/">Solar</a></li>
+                        <li><a href="/tech_deployment/">Technology Deployment</a></li>
+                        </ul>
+                        </div>
+                        <div class="col-sm-3">
+                        <ul>
+                        <li><a href="/transportation/">Transportation</a></li>
+                        <li><a href="/water">Water Power</a></li>
+                        <li><a href="/wind/">Wind Energy</a></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Follow -->
+                <div class="col-sm-2">
+                    <p class="header">Follow NREL</p>
+                    <ul class="social-links list-inline">
+                    <li><a href="https://www.facebook.com/nationalrenewableenergylab"><i class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="/news/"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="https://twitter.com/nrel/"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/company/national-renewable-energy-laboratory"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/NRELPR/"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/nationalrenewableenergylab/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="http://feeds.feedburner.com/NrelFeatureStories"><i class="fa fa-rss-square"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- NREL is... -->
+        <div class="col-sm-2 col-sm-pull-10 border-right">
+            <div class="row">
+                <div class="col-sm-12 only-nrel">
+                    <p class="nrel-attr">NREL is a national laboratory of the <a href="http://energy.gov/">U.S. Department of Energy</a>, <a href="http://energy.gov/eere/office-energy-efficiency-renewable-energy">Office of Energy Efficiency and Renewable Energy</a>, operated by the <a href="http://www.allianceforsustainableenergy.org/">Alliance for Sustainable Energy, LLC</a>.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                    <li><a href="/security.html">Security &amp; Privacy Policy</a></li>
+                    <li><a href="/accessibility.html">Accessibility</a></li>
+                    <li><a href="/disclaimer.html">Disclaimer</a></li>
+                    <li><a id="contact-link" href="/webmaster.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                    <li><a href="/careers/">Apply for a Job</a></li>
+                    <li><a href="http://developer.nrel.gov/">Developers</a></li>
+                    <li><a href="http://energy.gov">Energy.gov</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2 border-right">
+            <img src="/client/img/logo_doe_footer.svg" alt="U.S. Department of Energy" class="logo">
+        </div>
+    </div>
+
+
+
+    </div>
+</footer>
+<!--startindex-->
+<!-- == END GLOBAL FOOTER == -->
+
+
+<!-- SITE SCRIPTS -->
+<!-- Global plugins -->
+<script src="/client/js/newsy/jquery.newsy.min.js"></script>
+
+
+<!-- Local plugins -->
+<!-- <script src="client/js/plugins.min.js"></script> -->
+
+
+<!-- Application / initialization -->
+<script src="/news/client/js/app.min.js"></script>
+
+
+
+<!-- GLOBAL SCRIPTS -->
+
+    <!-- == GLOBAL SCRIPTS == -->
+    <!-- Bootstrap -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Lightbox plugin -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js"></script>
+
+    <!-- Icons plugin -->
+    <script src="/client/js/iconomatic/jquery.iconomatic.min.js"></script>
+
+    <!-- AddThis Widget -->
+    <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=nrel" async></script>
+
+    <!-- JW Player -->
+    <script src="/client/vendor/jw6/jwplayer.js"></script>
+    <script>jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script>
+
+    <!-- Global plugins -->
+    <!-- <script src="/client/js/plugins.min.js"></script> -->
+
+    <!-- Global scripts -->
+    <script src="/client/js/app.min.js"></script>
+    <!-- == END GLOBAL SCRIPTS == -->
+
+
+</body>
+</html>

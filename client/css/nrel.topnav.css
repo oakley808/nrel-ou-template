@@ -1,0 +1,406 @@
+/*!
+ *  NREL top navigation styles
+ */
+
+
+/*
+ *  TOP NAV
+ ************************************************************/
+
+/*
+<div .navbar-wrapper [corporate-topnav]>
+    <div .navbar .navbar-inverse>
+        <ul .navbar-nav .nav>
+            <li .dropdown>
+                <ul .dropdown-menu>
+                    <li>
+*/
+/*background-color: #5E6A71;
+    border-top: 3px solid #62d2ff;*/
+
+/*
+ *  All top nav
+ */
+.navbar-wrapper {
+    background-color: #000;
+    font-family: "Roboto";
+}
+
+.navbar-wrapper a {
+    text-decoration: none;
+
+}
+
+
+/*
+ *
+ *  Color and spacing settings for Menu toggle button
+ *
+ */
+
+ /* the 3 horizontal lines within the toggle button */
+.navbar-inverse .navbar-toggle .icon-bar-holder {
+    float: left;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+/* the word "MENU" within the toggle button  */
+.navbar-inverse .navbar-toggle-label {
+    float: left;
+}
+
+/* Menu button  */
+.navbar-inverse .navbar-toggle {
+    border-top: 3px solid #62d2ff;
+    background-color: #5E6A71;
+    border-left:0;
+    border-right:0;
+    border-bottom:0;
+    border-radius:0;
+    color:#fff;
+    float:none;
+    margin-top:0;
+    margin-bottom:0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Menu button closed state */
+.navbar-inverse .navbar-toggle.collapsed {
+    border-top: 3px solid transparent;
+    background-color: transparent;
+}
+/* Menu button hover */
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    border-top: 3px solid #62d2ff;
+    background-color: #5E6A71;
+}
+
+
+
+/*
+ *  1ST LEVEL
+ ********************************************/
+
+/* top level closed */
+.navbar-inverse .navbar-nav > li > a {
+    border-top:3px solid transparent; /* prevents jitter */
+    color: #fff;
+    background-color: #5E6A71;
+}
+
+@media (min-width:768px) {
+
+    /* top level on desktop */
+    .navbar-inverse .navbar-nav > li > a {
+        text-transform: uppercase;
+        border-top:3px solid transparent; /* prevents jitter */
+        background-color: transparent;
+    }
+}
+
+
+
+.navbar-inverse .navbar-nav > li        > a:hover,
+.navbar-inverse .navbar-nav > li        > a:focus,
+.navbar-inverse .navbar-nav > li.active > a:hover,
+.navbar-inverse .navbar-nav > li.active > a:focus  {
+        background-color: #0B5E90;      /* dark blue */
+        border-top: 3px solid transparent;
+}
+
+/* top level closed hover and active */
+@media (min-width:768px) {
+    .navbar-inverse .navbar-nav > li.active > a,
+    .navbar-inverse .navbar-nav > li        > a:hover,
+    .navbar-inverse .navbar-nav > li        > a:focus,
+    .navbar-inverse .navbar-nav > li.active > a:hover,
+    .navbar-inverse .navbar-nav > li.active > a:focus  {
+            background-color: #5E6A71;      /* grey */
+            border-top: 3px solid #62d2ff;  /* blue */
+    }
+}
+
+
+
+
+/* toggle the font awesome down/up arrow when a menu opens */
+.navbar-inverse .navbar-nav > li > a .fa-angle-down:before {
+    content: "\f107"; /* the native closed state - fa-angle-down */
+}
+.navbar-inverse .navbar-nav > li.open > a .fa-angle-down:before {
+    content: "\f106"; /* open - switch to fa-angle-up */
+}
+
+
+
+@media(min-width:768px) {
+    /* top level open - desktop */
+    .navbar-inverse .navbar-nav > li.open > a {
+        border-top:3px solid #62d2ff;   /* blue */
+    }
+}
+
+/* top level open  hover */
+.navbar-inverse .navbar-nav > li.open > a:hover,
+.navbar-inverse .navbar-nav > li.open > a:focus {
+    background-color: #0B5E90;  /* dark blue */
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    /* top level open  hover  desktop*/
+    .navbar-inverse .navbar-nav > li.open > a:hover,
+    .navbar-inverse .navbar-nav > li.open > a:focus {
+        background-color: #5E6A71; /* grey */
+    }
+}
+
+
+
+
+
+/*
+ *  2ND LEVEL
+ ***********************************/
+
+/* 2nd level */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    background-color: #282e2e; /* dark grey */
+    border-bottom: 1px solid #000;
+    color: #62d2ff; /* lite blue */
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+@media(min-width:768px) {
+    /* 2nd level desktop */
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        background-color: #5E6A71; /* lite grey */
+        border-bottom: 1px solid #4B545A; /* another dark grey */
+        color: #fff;
+    }
+}
+
+/* 2nd level hover */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #0B5E90; /* dark blue */
+    color: #fff;
+}
+
+/* the little Home icon */
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a .fa-home {
+    position: absolute;
+    right:10px;
+    top:15px;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    position: relative;
+}
+
+/*
+ *  3RD LEVEL
+ ***********************************/
+.navbar-inverse .navbar-nav .dropdown > ul ul {
+    padding-left:0;
+    list-style-type: none;
+}
+
+.navbar-inverse .navbar-nav .dropdown > ul ul li {
+    background-color: #282e2e;
+}
+
+.navbar-inverse .navbar-nav .dropdown > ul ul a,
+.navbar-inverse .navbar-nav .dropdown > ul ul a:visited {
+    color: #62d2ff;
+    display: block;
+    text-decoration: none;
+    padding-left:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.navbar-inverse .navbar-nav .dropdown > ul ul a:hover {
+    background-color: #0B5E90;
+    color: #fff;
+}
+
+/*
+ *
+ *  Overrides (spacing, border, and font settings for containers and lists)
+ *
+ */
+
+ /* remove 1px border */
+.navbar,
+.navbar-nav,
+.navbar-collapse {
+    border:0;
+    margin-bottom:0;
+    min-height: 0; /* override bs 50 */
+}
+
+ul.navbar-nav {
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+ul.dropdown-menu {
+    border:0;
+    padding-top: 0;
+    padding-bottom:0;
+}
+
+
+
+
+/*****************************************************************************************************************
+ *
+ *  Overrides for the corporate level top nav
+ *
+ *****************************************************************************************************************/
+
+
+/*
+ *  BRAND (Leading Clean Energy Innovation)
+ */
+.corporate-topnav .navbar-inverse .navbar-brand {
+    border-top:3px solid transparent;
+    color:#FFC423;
+    font-size: 16px;
+    font-weight: 300;
+    height:53px;
+    padding-right:0;
+}
+@media (min-width:992px) {
+    .corporate-topnav .navbar-inverse .navbar-brand{
+        font-size: 18px;
+    }
+}
+.corporate-topnav .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+@media (min-width:768px) {
+    .corporate-topnav .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.corporate-topnav .navbar-inverse {
+    text-align: center; /* center top level items */
+}
+@media(min-width: 768px) {
+    .corporate-topnav .navbar-inverse {
+        border-top:9px solid #005D92
+    }
+}
+.corporate-topnav .navbar-inverse .navbar-nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.corporate-topnav .navbar-inverse .navbar-nav > li {
+    display: inline-block;
+}
+.corporate-topnav .navbar-inverse .navbar-nav > li > a {
+    display: block;
+    font-size: 11px;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    text-transform: uppercase;
+}
+@media(min-width: 992px) {
+    .corporate-topnav .navbar-inverse .navbar-nav > li > a {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    }
+}
+.corporate-topnav .navbar-inverse .navbar-nav > li > a {
+    background-color: transparent;
+    border-top:3px solid transparent;
+
+}
+.corporate-topnav .navbar-inverse .navbar-nav > li > a:hover,
+.corporate-topnav .navbar-inverse .navbar-nav > li > a:focus {
+    background-color:#5E6A71;
+    border-top:3px solid #62D2FF;
+
+}
+
+/* active (on) state */
+.corporate-topnav .navbar-inverse .navbar-nav > li.active > a,
+.corporate-topnav .navbar-inverse .navbar-nav > li.active > a:hover  {
+    background-color:#5E6A71;
+    border-top:3px solid #62D2FF;
+}
+
+.corporate-topnav .navbar-inverse .navbar-nav > li.open > a {
+    background-color: #5E6A71;
+    border-top:3px solid #62D2FF;
+
+}
+
+
+
+/*
+ *  2ND LEVEL
+ */
+.corporate-topnav .navbar-inverse .navbar-nav       .dropdown-menu > li > a {
+    display: none !important;
+}
+.corporate-topnav .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    background-color: #5E6A71;
+    border-bottom: 1px solid #4B545A;
+    display: block !important;
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    /* 2nd level desktop */
+    .corporate-topnav .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        background-color: #5E6A71; /* lite grey */
+        border-bottom: 1px solid #4B545A; /* another dark grey */
+        color: #fff;
+    }
+}
+
+/* 2nd level hover */
+.corporate-topnav .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.corporate-topnav .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #0B5E90; /* dark blue */
+    color: #fff;
+}
+
+
+@media (min-width:768px) {
+    .corporate-topnav .navbar-inverse .navbar-nav > li > a {
+        font-size: 16px;
+    }
+}
+
+/* lower levels positioning overrides */
+.corporate-topnav .navbar-inverse .navbar-nav li.dropdown {
+    position: static;
+}
+
+.corporate-topnav .navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #5E6A71;
+    border-top:0;
+    font-size: 14px;
+    left: 0;
+    position: absolute;
+    right: auto;
+    width: 100%;
+}
+@media (min-width:768px) {
+    .corporate-topnav .navbar-inverse .navbar-nav .open .dropdown-menu {
+        display:block;
+        left:auto;
+        width:auto;
+    }
+}
+
+

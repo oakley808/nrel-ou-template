@@ -1,0 +1,9 @@
+[submodule "js/iconomatic"]
+    path = js/iconomatic
+    url = https://github.nrel.gov/communications/nrel-iconomatic.git
+[submodule "js/newsy"]
+    path = js/newsy
+    url = https://github.nrel.gov/communications/nrel-newsy.git
+[submodule "js/wuweather"]
+	path = js/wuweather
+	url = https://github.nrel.gov/communications/nrel-wuwidget.git

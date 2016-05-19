@@ -1,0 +1,50 @@
+    <!-- == APPLICATION SCRIPTS == -->
+    <!-- Bootstrap -->
+    <script
+        src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+    </script>
+
+
+    <!-- Icons plugin -->
+    <script
+        src="/client/js/iconomatic/jquery.iconomatic.min.js">
+    </script>
+
+    <!-- AddThis Widget -->
+    <!-- <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=nrel" async></script> -->
+
+    <!-- JW Player -->
+    <!-- <script src="/includes/jw6/jwplayer.js"></script>
+    <script>jwplayer.key="gj1PPeb7RFVLpZpmChWEWyTT9wqRfMlQnOG4XhIrjnM=";</script> -->
+
+    <!-- Global plugins -->
+    <!-- <script src="/client/js/plugins.min.js"></script> -->
+
+    <!-- Global scripts -->
+    <script src="/client/js/app.min.js"></script>
+
+    <script>
+        /*
+         *  moakley
+         *  Label icons
+         */
+        $(document).ready(function(){
+            $('body').iconomatic({
+                 ajax       :  true
+                ,dataMode   :  true
+            });
+        });
+
+        /*
+         *  Crazy Egg
+         */
+        setTimeout(function(){
+            var a=document.createElement("script");
+            var b=document.getElementsByTagName('script')[0];
+            a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/5883.js?"+Math.floor(new Date().getTime()/3600000);
+            a.async=true;
+            a.type="text/javascript";
+            b.parentNode.insertBefore(a,b);
+        }, 1);
+    </script>
+    <!-- == END APPLICATION SCRIPTS == -->

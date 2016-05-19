@@ -1,0 +1,70 @@
+<script src="/server/feedback/nrel.feedback.jquery.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 col-sm-offset-3">
+
+            <div id="feedback-container">
+                <div id="feedback">
+
+
+
+                    <!-- 1st Form -->
+                    <div id="feedback-primary" class="feedback-panel">
+
+                        <p>Did you find what you needed?</p>
+                        <form  class="feedback-form" name="feedback-primary-form" id="feedback-primary-form" method="post">
+
+
+                            <label for="yes" class="sr-only">Yes</label>
+                            <input type="button"  value="Yes" name="yes_no" id="yes" class="feedback-button-yes button-submit btn btn-default" />
+
+                            <label for="no"  class="sr-only" >No</label>
+                            <input type="button"  value="No"  name="yes_no" id="no"  class="feedback-button-no  button-submit btn btn-default" />
+
+                            <input type="hidden" name="formName"   id="formName"   value="" />
+                            <input type="hidden" name="url"        id="url"        value="" />
+                            <input type="hidden" name="buttonType" id="buttonType" value="" />
+                        </form>
+                    </div>
+
+
+                    <!-- 2nd Form -->
+                    <div id="feedback-secondary" class="feedback-panel hide">
+                        <form  class="feedback-form" name="feedback-secondary-form" id="feedback-secondary-form" method="post">
+
+                            <h3>Thank you for your feedback.</h3>
+                            <div>
+                                <label for="improvement" >Would you like to take a moment to tell us how we can improve this page?</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="4" name="improvement" id="improvement" class="form-control"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" name="submit"   id="submit"   value="Submit" class="button-submit btn btn-default" />
+                            </div>
+                            <input type="hidden" name="recordID" id="recordID" value="" />
+                        </form>
+                    </div>
+
+
+                    <!-- Thank you -->
+                    <div id="feedback-success" class="feedback-panel hide">
+                        <h3>We value your feedback.</h3>
+                        <p>Thanks! We've received your feedback.</p>
+                    </div>
+
+
+                    <!-- Oops -->
+                    <div id="feedback-fail" class="feedback-panel hide">
+                        <h3>Something went wrong.</h3>
+                        <p>Please try again later.</p>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

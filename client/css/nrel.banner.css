@@ -1,0 +1,169 @@
+/*!
+ *
+ *  NREL banner styles
+ *
+ */
+
+/*
+ *  BANNER
+ ************************************************************/
+
+.banner-logo {
+    background-color: #0079c5;
+    width: 100%;
+    border-bottom: none;
+    min-height:60px;
+}
+
+@media (min-width: 768px) {
+    .banner-logo {
+        min-height:92px;
+    }
+}
+
+header .logo {
+    background:  url("/client/img/nrel_logo_mobile.png") no-repeat center;
+    height: 92px;
+}
+
+@media (min-width: 768px) {
+    header .logo {
+        background: url("/client/img/nrel_logo.png") no-repeat left;
+        background-size: 220px;
+        padding: 16px 0;
+    }
+}
+
+.banner-wordo {
+    background-color: #005d92;
+    font-family: "Roboto";
+    width: 100%;
+}
+
+/* National Renewable Energy Laboratory */
+.wordo {
+    background-color: #005d92;
+    color: #fff;
+    text-align: center;
+    height: auto;
+    padding:5px 0;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+
+
+
+
+/*
+ *  SEARCH
+ ************************************************************/
+.searchbar-toggle {
+    border: 1px solid #fff;
+    border-radius:5px;
+    color: #fff;
+    margin-top:15px;
+    padding: 2px 6px 3px 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#searchbar-collapse {
+    background-color: #DEE2E5;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+@media (min-width: 768px) {
+    #searchbar-collapse {
+        background-color: transparent;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+/* little grey rectangle rotated to a triangle */
+#searchbar-collapse:after {
+    height: 20px;
+    width: 20px;
+    content: " ";
+    background-color: #DEE2E5;
+    position: absolute;
+    right: 20px;
+    top: -6px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    #searchbar-collapse:after {
+        display: none;
+    }
+}
+.searchbar-form {
+    font-family: Roboto, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+@media (min-width: 768px) {
+    .searchbar-form {
+        background-color: transparent;
+        float:right;
+        margin-top:15px;
+    }
+}
+
+.searchbar-form button {
+    background-color:#5E6A71;
+    border-color:#5E6A71;
+    color:#fff;
+    height:40px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .searchbar-form button {
+        background-color: #D1D5D8;
+        border-color: #D1D5D8;
+        color: #000;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+
+    /* padding is needed on xs size  below 768 */
+    header .navbar-collapse,
+    header .navbar-form  {
+        padding-left:0;
+        padding-right: 0;
+    }
+}
+
+
+header .navbar-collapse  {
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+
+.searchbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.searchbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    box-shadow: none;
+    height:40px;
+}
+
+
+
