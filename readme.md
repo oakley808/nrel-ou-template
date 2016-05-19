@@ -21,7 +21,7 @@ There are several files included as example pages showing unique layouts.
 
 
 NREL home page  
-http://localhost/index.html the NREL home page
+http://localhost/index.html
 
 Server 404 error response page  
 http://localhost/404.html
@@ -50,7 +50,7 @@ http://localhost/news/press/index.cfm.html
 http://localhost/news/press/release_detail.cfm.html
 
 Application templates, full width  
-http://ou.nrel.mine/h2fast/
+http://localhost/h2fast/
 
 Application templates, with left nav  
-http://ou.nrel.mine/solarpaces/index.cfm.html
+http://localhost/solarpaces/index.cfm.html
