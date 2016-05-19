@@ -49,8 +49,8 @@ News Press Release listing and detail pages
 http://localhost/news/press/index.cfm.html
 http://localhost/news/press/release_detail.cfm.html
 
-Application templates, full width  
+Application template, full width  
 http://localhost/h2fast/
 
-Application templates, with left nav  
+Application template, with left nav  
 http://localhost/solarpaces/index.cfm.html
