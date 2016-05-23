@@ -30,7 +30,10 @@ Corporate level page
 http://localhost/about/mission-programs.html
 
 Staff directory  
-http://localhost/about/staff-directory.php
+http://localhost/bios/index.html
+
+Bio detail page  
+http://localhost/bios/firstname-lastname.html
 
 Microsite page. One column without breadcrumbs  
 http://localhost/careers/index.html
