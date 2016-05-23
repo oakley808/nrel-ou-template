@@ -10,3 +10,17 @@ $(document).ready( function(){
   window.nrel.pagevars.sitename = 'Research'
   window.nrel.pagevars.topnav   = 'research'
 })
+
+
+/**
+ *  initialize plugins
+ */
+$(document).ready( function(){
+
+  $('#research-select').multiselect({
+			nonSelectedText: 'Select research area',
+      enableHTML: false,
+      numberDisplayed: 1
+	})
+
+})
